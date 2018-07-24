@@ -3,12 +3,19 @@ font-family: "OCRA Medium";
 src: url("fonts/OCRAMedium.ttf");
 }
 @font-face {
-font-family: "RobotoCondensed-Bold";
+font-family: "RobotoCondensed Bold";
 src: url("fonts/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+font-family: "Roboto Bold";
+src: url("fonts/Roboto-Bold.ttf");
 }
 h1 {
 	font-family: 'OCRA Medium', Arial, sans-serif;
 	font-size: 3rem;
+}
+h2 {
+	font-family: 'Roboto Bold', Arial, sans-serif;
 }
 .col-lg-12, .col-lg-6 {
 	border-style: solid;
@@ -21,7 +28,7 @@ ul {
 	padding: 0;
 }
 li {	
-	font-family: 'RobotoCondensed-Bold', Arial, sans-serif;
+	font-family: 'RobotoCondensed Bold', Arial, sans-serif;
 	list-style-type: none;
 	text-align: center;
 	width: 5rem;
