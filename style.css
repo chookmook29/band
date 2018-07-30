@@ -10,62 +10,169 @@ src: url("fonts/RobotoCondensed-Bold.ttf");
 font-family: "Roboto Bold";
 src: url("fonts/Roboto-Bold.ttf");
 }
-
-@media only screen and (max-width: 543px) {
+@media screen and (max-width: 575px) {
+	body {
+		background: url("images/background_small.jpg") no-repeat; 
+	}
+	header {
+		margin-top: -5px;
+		}
     h1 {
 		text-align: center;
-		font-size: 3.5rem;
+		font-size: 3.4rem;
+		}
+	nav { margin-top: 35%;
 		}
 	li {	
-	font-family: 'RobotoCondensed Bold', Arial, sans-serif;
+		width: 10rem;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 0.8rem;
+		font-family: 'RobotoCondensed Bold', Arial, sans-serif;
+		}
+	i {
+		font-size: 1rem;
+		}
+	article{
+		font-size: 0.8rem;
+		margin-top: 0.2rem;
+		opacity: 0.8;
 		}
 	
+	footer {
+		font-size: 0.5rem;
+		}
 	}
-@media only screen and (min-width: 544px) {
+@media screen and (min-width: 576px) {
+	body {
+		background: url("images/background_small.jpg") no-repeat; 
+	}
+    h1 {
+		font-size: 5rem;
+		text-align: center;
+		}
+	nav { margin-top: 35%;
+		}
+	li  {	
+		width: 8.4rem;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 0.8rem;
+		font-family: 'Roboto Bold', Arial, sans-serif;
+		}
+	i {
+		font-size: 1.2rem;
+		}
+	article {
+		font-size: 0.9rem;
+		opacity: 0.8;
+		}
+	footer {
+		font-size: 0.5rem;
+		}
+	}
+@media screen and (min-width: 768px) {
+	body {
+		background: url("images/background.jpg") no-repeat; 
+	}
     h1 {
 		text-align: center;
-		font-size: 5.8rem;
+		font-size: 4.6rem;
+		}
+	nav { margin-top: 0;
 		}
 	li {	
-	font-family: 'Roboto Bold', Arial, sans-serif;
+		font-family: 'Roboto Bold', Arial, sans-serif;
+		width: 3.4rem;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 0.8rem;
+		}
+	i {
+		font-size: 1.4rem;
+		}
+	article {
+		font-size: 0.7rem;
+		opacity: 0.7;
+		}
+	.col-spacer {
+		display: block;
+		height: 35%;
+		}
+	footer {
+		font-size: 0.6rem;
+		}
+	}
+@media screen and (min-width: 992px) {
+	body {
+		background: url("images/background.jpg") no-repeat; 
+	}
+	header {
+		margin-top: -10px;
+	}
+    h1 {
+		text-align: right;
+		font-size: 5rem;
+		}
+	li {	
+		height: 2rem;
+		font-family: 'Roboto Bold', Arial, sans-serif;
+		}
+	i {
+		font-size: 1.6rem;
+	}
+	article{
+		font-size: 0.9rem;
+		opacity: 0.6;
+		}
+	.col-spacer {
+		display: block;
+		height: 35%;
+		}
+	footer {
+		font-size: 0.7rem;
 		}	
 	}
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+	body {
+		background: url("images/background.jpg") no-repeat; 
+		}
+	header {
+		margin-top: -10px;
+		}
     h1 {
+		color: red;
+		font-size: 7rem;
 		text-align: right;
-		font-size: 5rem;
+		}
+	h2 {
+		font-size: 1.2rem;
 		}
 	li {	
-	font-family: 'Roboto Bold', Arial, sans-serif;
+		line-height: 2.4rem;
+		width: 4rem;
+		height: 2.4rem;
+		font-family: 'Roboto Bold', Arial, sans-serif;
 		}
-	}
-@media only screen and (min-width: 992px) {
-    h1 {
-		text-align: right;
-		font-size: 5rem;
+	i {
+		font-size: 1.7rem;
 		}
-	li {	
-	font-family: 'Roboto Bold', Arial, sans-serif;
+	article{
+		font-size: 1rem;
+		opacity: 0.6;
 		}
-	}
-@media only screen and (min-width: 1200px) {
-    h1 {
-		text-align: right;
-		font-size: 6rem;
+		.col-spacer {
+		height: 48%;
 		}
-	li {	
-	font-family: 'Roboto Bold', Arial, sans-serif;
-	}
-	.col-spacer {
-	height: 50%
-	}
+	footer {
+		font-size: 1rem;
+		}
 	}
 	
 html, body {
 	width: 100%; 
 	margin: 0;
 	height: 100%;
-	background: url("images/background.jpg") no-repeat; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -76,9 +183,9 @@ html, body {
 header {
 }
 h1 {
-	color: white;
 	font-family: 'OCRA Medium', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
+	color: white;
 	}
 h2 {
 	font-family: 'Roboto Bold', Arial, sans-serif;
@@ -89,12 +196,8 @@ ul {
 	padding: 0;
 	}
 li {	
-	font-family: 'Roboto Bold', Arial, sans-serif;
 	list-style-type: none;
 	text-align: center;
-	width: 6rem;
-	height: 3rem;
-	line-height: 3rem;
 	margin: 0; 
 	padding: 0;
 	margin-top: 2%;
@@ -116,8 +219,7 @@ a:hover {
 	color: white;
 	text-decoration: none;
 	}	
-i {
-	font-size: 2.5rem; 
+i { 
 	color: white;
 	opacity: 0.8;
 	}
@@ -131,7 +233,6 @@ article {
 	background: -webkit-linear-gradient(top, #2d2d2d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #2d2d2d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-	opacity: 0.6;
 	}
 footer {
 	color: white;
