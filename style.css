@@ -165,7 +165,10 @@ src: url("fonts/Roboto-Bold.ttf");
 		.col-spacer {
 		height: 53%;
 		}
-	footer {
+		.col-spacer_2 {
+		height: 25%;
+		}
+		footer {
 		font-size: 1rem;
 		}
 	}
