@@ -158,7 +158,7 @@ src: url("fonts/Roboto-Bold.ttf");
 	i {
 		font-size: 1.7rem;
 		}
-	article{
+	article {
 		font-size: 1rem;
 		opacity: 0.6;
 		}
@@ -172,6 +172,21 @@ src: url("fonts/Roboto-Bold.ttf");
 		font-size: 1rem;
 		}
 	}
+@-webkit-keyframes fadeOut {
+		0% {opacity: 0;}
+		100% {opacity: 0.8;}
+		}
+         
+@keyframes fadeOut {
+        0% {opacity: 0;}
+        100% {opacity: 0.8;}
+        }
+         
+.fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+        }
+
 	
 html, body {
 	width: 100%; 
@@ -231,6 +246,8 @@ i:hover {
 	opacity: 1;
 	}
 article {
+	-webkit-animation-duration: 4s;animation-duration: 4s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
 	color: #FFFFFF;
 	background: #2d2d2d; /* Old browsers */
 	background: -moz-linear-gradient(top, #2d2d2d 0%, #000000 100%); /* FF3.6-15 */
@@ -247,3 +264,15 @@ footer {
 	padding: 1rem;
 	text-align: center;
 	}
+video {
+	-webkit-animation-duration: 6s;animation-duration: 6s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+}
+button {
+	background-color: #E82B01;
+	border: none;
+	text-decoration: none;
+	font-family: 'Roboto Bold', Arial, sans-serif;
+	-webkit-animation-duration: 3s;animation-duration: 3s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+}
