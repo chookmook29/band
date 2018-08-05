@@ -46,6 +46,10 @@ src: url("fonts/Roboto-Bold.ttf");
 	.fadeOut {
 		text-align: center;
 		}
+	.responsive {
+		width: 120%;
+		height: auto;
+	}
 	}
 @media screen and (min-width: 576px) {
 	body {
@@ -77,6 +81,10 @@ src: url("fonts/Roboto-Bold.ttf");
 	.fadeOut {
 		text-align: center;
 		}
+	.responsive {
+		width: 120%;
+		height: auto;
+	}
 	}
 @media screen and (min-width: 768px) {
 	body {
@@ -115,6 +123,10 @@ src: url("fonts/Roboto-Bold.ttf");
 	.fadeOut {
 		text-align: left;
 		}
+	.responsive {
+		width: 49%;
+		height: auto;
+	}
 	}
 @media screen and (min-width: 992px) {
 	body {
@@ -147,7 +159,11 @@ src: url("fonts/Roboto-Bold.ttf");
 		}
 	footer {
 		font-size: 0.7rem;
-		}	
+		}
+	.responsive {
+		width: 33%;
+		height: auto;
+	}		
 	}
 @media screen and (min-width: 1200px) {
 	body {
@@ -186,6 +202,10 @@ src: url("fonts/Roboto-Bold.ttf");
 		footer {
 		font-size: 1rem;
 		}
+	.responsive {
+		width: 33%;
+		height: auto;
+	}
 	}
 @-webkit-keyframes fadeOut {
 		0% {opacity: 0;}
@@ -261,7 +281,7 @@ i:hover {
 	opacity: 1;
 	}
 article {
-	-webkit-animation-duration: 4s;animation-duration: 4s;
+	-webkit-animation-duration: 1s;animation-duration: 1s;
     -webkit-animation-fill-mode: both;animation-fill-mode: both;
 	color: #FFFFFF;
 	background: #2d2d2d; /* Old browsers */
@@ -280,18 +300,21 @@ footer {
 	text-align: center;
 	}
 video {
-	-webkit-animation-duration: 6s;animation-duration: 6s;
+	-webkit-animation-duration: 2s;animation-duration: 2s;
     -webkit-animation-fill-mode: both;animation-fill-mode: both;
-}
+	}
 button {
 	background-color: #E82B01;
 	border: none;
 	text-decoration: none;
 	font-family: 'Roboto Bold', Arial, sans-serif;
-	-webkit-animation-duration: 3s;animation-duration: 3s;
+	-webkit-animation-duration: 1s;animation-duration: 1s;
     -webkit-animation-fill-mode: both;animation-fill-mode: both;
-}
+	}
 .current {
-		color: #E82B01;
-		opacity: 0.5;
-		{
+	color: #E82B01;
+	opacity: 0.5;
+	}
+table {
+	border: none;
+	}
