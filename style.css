@@ -11,17 +11,12 @@ font-family: "Roboto Bold";
 src: url("fonts/Roboto-Bold.ttf");
 }
 @media screen and (max-width: 575px) {
-	body {
-		background: url("images/background_small.jpg") no-repeat; 
-	}
 	header {
 		margin-top: -5px;
 		}
     h1 {
 		text-align: center;
 		font-size: 3.4rem;
-		}
-	nav { margin-top: 35%;
 		}
 	li {	
 		width: 10rem;
@@ -47,19 +42,14 @@ src: url("fonts/Roboto-Bold.ttf");
 		text-align: center;
 		}
 	.responsive {
-		width: 120%;
+		width: 100%;
 		height: auto;
 	}
 	}
 @media screen and (min-width: 576px) {
-	body {
-		background: url("images/background_small.jpg") no-repeat; 
-	}
     h1 {
 		font-size: 5rem;
 		text-align: center;
-		}
-	nav { margin-top: 35%;
 		}
 	li  {	
 		width: 8.4rem;
@@ -82,14 +72,11 @@ src: url("fonts/Roboto-Bold.ttf");
 		text-align: center;
 		}
 	.responsive {
-		width: 120%;
+		width: 100%;
 		height: auto;
 	}
 	}
 @media screen and (min-width: 768px) {
-	body {
-		background: url("images/background.jpg") no-repeat; 
-	}
     h1 {
 		text-align: right;
 		font-size: 4rem;
@@ -124,14 +111,11 @@ src: url("fonts/Roboto-Bold.ttf");
 		text-align: left;
 		}
 	.responsive {
-		width: 49%;
+		width: 100%;
 		height: auto;
 	}
 	}
 @media screen and (min-width: 992px) {
-	body {
-		background: url("images/background.jpg") no-repeat; 
-	}
 	header {
 		margin-top: -10px;
 	}
@@ -161,14 +145,11 @@ src: url("fonts/Roboto-Bold.ttf");
 		font-size: 0.7rem;
 		}
 	.responsive {
-		width: 33%;
+		width: 100%;
 		height: auto;
 	}		
 	}
 @media screen and (min-width: 1200px) {
-	body {
-		background: url("images/background.jpg") no-repeat; 
-		}
 	header {
 		margin-top: -10px;
 		}
@@ -181,16 +162,16 @@ src: url("fonts/Roboto-Bold.ttf");
 		}
 	li {	
 		line-height: 2.4rem;
-		width: 4rem;
+		width: 6.6rem;
 		height: 2.4rem;
 		font-family: 'Roboto Bold', Arial, sans-serif;
-		font-size: 1rem;
+		font-size: 1.9rem;
 		}
 	i {
 		font-size: 1.7rem;
 		}
 	article {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		opacity: 0.6;
 		}
 		.col-spacer {
@@ -203,7 +184,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		font-size: 1rem;
 		}
 	.responsive {
-		width: 33%;
+		width: 100%;
 		height: auto;
 	}
 	}
@@ -256,7 +237,7 @@ li {
 	padding: 0;
 	margin-top: 2%;
 	}
-li:hover {
+li span:hover {
 	text-decoration: none;
 	color: #FFFFFF;
 	background: #E82B01;
