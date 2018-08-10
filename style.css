@@ -177,7 +177,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		font-size: 1rem;
 		}
 	.responsive {
-		width: 100%;
+		width: 49%;
 		height: auto;
 	}
 	}
@@ -289,6 +289,11 @@ button {
 	color: #E82B01;
 	opacity: 0.5;
 	}
+.responsive-full {
+	width: 100%;
+	height: auto;
+	}
+		
 table {
 	border: none;
 	}
