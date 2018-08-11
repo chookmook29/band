@@ -180,7 +180,10 @@ src: url("fonts/Roboto-Bold.ttf");
 		width: 49%;
 		height: auto;
 	}
-	}
+	.fade-in img {
+		margin-left: 25%;
+		}
+}
 @-webkit-keyframes fadeOut {
 		0% {opacity: 0;}
 		100% {opacity: 0.8;}
@@ -274,8 +277,10 @@ footer {
 	text-align: center;
 	}
 video {
-	-webkit-animation-duration: 2s;animation-duration: 2s;
-    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+	-webkit-animation-duration: 2s;
+			animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
 	}
 button {
 	background-color: #E82B01;
@@ -416,4 +421,36 @@ table {
     -webkit-transform-origin: top;
             transform-origin: top;
   }
+}
+.fade-in img {
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+	position:absolute;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+#image2 {
+    -webkit-animation-delay: -4s;
+			animation-delay: -4s;
+}
+#image3 {
+    -webkit-animation-delay: -2s;
+			animation-delay: -2s;
 }
