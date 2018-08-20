@@ -173,7 +173,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		.col-spacer_2 {
 		height: 25%;
 		}
-		footer {
+	footer {
 		font-size: 1rem;
 		}
 	.responsive {
@@ -269,11 +269,6 @@ article {
 	}
 footer {
 	color: gray;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
 	text-align: center;
 	}
 video {
