@@ -76,7 +76,7 @@ src: url("fonts/Roboto-Bold.ttf");
 @media screen and (min-width: 768px) {
     h1 {
 		text-align: right;
-		font-size: 3.8rem;
+		font-size: 3.3rem;
 		}
 	nav { margin-top: 0;
 		}
@@ -85,7 +85,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		width: 5.2rem;
 		height: 2rem;
 		line-height: 2rem;
-		font-size: 1.1rem;
+		font-size: 1rem;
 		}
 	i {
 		font-size: 1.4rem;
