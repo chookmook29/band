@@ -15,7 +15,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		text-align: center;
 		font-size: 3rem;
 		}
-	li {	
+	li {
 		width: 10rem;
 		height: 2rem;
 		line-height: 2rem;
@@ -31,7 +31,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		opacity: 0.8;
 		text-align: justify;
 		}
-	
+
 	footer {
 		font-size: 0.5rem;
 		}
@@ -48,7 +48,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		font-size: 5.6rem;
 		text-align: center;
 		}
-	li  {	
+	li  {
 		width: 8.4rem;
 		height: 2rem;
 		line-height: 2rem;
@@ -80,7 +80,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		}
 	nav { margin-top: 0;
 		}
-	li {	
+	li {
 		font-family: 'Roboto Bold', Arial, sans-serif;
 		width: 5.2rem;
 		height: 2rem;
@@ -120,7 +120,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		text-align: right;
 		font-size: 4.9rem;
 		}
-	li {	
+	li {
 		height: 2.1rem;
 		width: 6.2rem;
 		font-family: 'Roboto Bold', Arial, sans-serif;
@@ -144,9 +144,9 @@ src: url("fonts/Roboto-Bold.ttf");
 		font-size: 0.7rem;
 		}
 	.responsive {
-		width: 100%;
+		max-width: 42%;
 		height: auto;
-	}		
+	}
 	}
 @media screen and (min-width: 1200px) {
     h1 {
@@ -156,7 +156,7 @@ src: url("fonts/Roboto-Bold.ttf");
 	h2 {
 		font-size: 1.2rem;
 		}
-	li {	
+	li {
 		line-height: 2.4rem;
 		width: 6.7rem;
 		height: 2.4rem;
@@ -177,7 +177,7 @@ src: url("fonts/Roboto-Bold.ttf");
 		font-size: 1rem;
 		}
 	.responsive {
-		width: 47%;
+		max-width: 42%;
 		height: auto;
 	}
 	.fade-in img {
@@ -188,20 +188,20 @@ src: url("fonts/Roboto-Bold.ttf");
 		0% {opacity: 0;}
 		100% {opacity: 0.8;}
 		}
-         
+
 @keyframes fadeOut {
         0% {opacity: 0;}
         100% {opacity: 0.8;}
         }
-         
+
 .fadeOut {
         -webkit-animation-name: fadeOut;
         animation-name: fadeOut;
         }
 
-	
+
 html, body {
-	width: 100%; 
+	width: 100%;
 	margin: 0;
 	height: 100%;
 	-webkit-background-size: cover;
@@ -223,13 +223,13 @@ h2 {
 	}
 ul {
 	display: flex;
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 	}
-li {	
+li {
 	list-style-type: none;
 	text-align: center;
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 	margin-top: 2%;
 	}
@@ -249,8 +249,8 @@ a {
 a:hover {
 	color: white;
 	text-decoration: none;
-	}	
-i { 
+	}
+i {
 	color: white;
 	opacity: 0.8;
 	}
@@ -293,7 +293,7 @@ button {
 	width: 100%;
 	height: auto;
 	}
-		
+
 table {
 	border: none;
 	}
