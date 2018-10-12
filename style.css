@@ -223,7 +223,7 @@ h2 {
 	}
 ul {
 	display: flex;
-	margin: 0;
+	margin-left: 100%;
 	padding: 0;
 	}
 li {
@@ -292,6 +292,16 @@ button {
 .responsive-full {
 	width: 100%;
 	height: auto;
+	}
+#band_image{
+	padding: 0;
+	}
+#band_name{
+	position: absolute;
+	top: 80%;
+	}
+#social_media{
+	position: absolute;
 	}
 .table {
 	max-width: 90%;
