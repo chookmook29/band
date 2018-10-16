@@ -49,7 +49,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 @media screen and (min-width: 576px) {
     h1 {
-		font-size: 5.6rem;
+		font-size: 5.4rem;
 		text-align: center;
 		}
 	li  {
@@ -79,8 +79,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 @media screen and (min-width: 768px) {
     h1 {
-		text-align: right;
-		font-size: 3.3rem;
+		font-size: 10rem;
 		}
 	nav { margin-top: 0;
 		}
@@ -121,8 +120,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		margin-top: -10px;
 	}
     h1 {
-		text-align: right;
-		font-size: 4.9rem;
+		font-size: 11rem;
 		}
 	li {
 		height: 2.1rem;
@@ -154,8 +152,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 @media screen and (min-width: 1200px) {
     h1 {
-		font-size: 5.5rem;
-		text-align: right;
+		font-size: 14rem;
 		}
 	h2 {
 		font-size: 1.2rem;
@@ -296,7 +293,7 @@ button {
 	}
 #band_name{
 	position: absolute;
-	top: 80%;
+	top: 50%;
 	}
 #social_media{
 	position: absolute;
