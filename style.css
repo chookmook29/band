@@ -295,6 +295,20 @@ button {
 	position: absolute;
 	top: 50%;
 	}
+#signup {
+	position: absolute;
+	top: 80%;
+	color: white;
+	margin-left: 33%;
+	font-size: 1.2rem;
+	}
+#submit{
+	position: absolute;
+	top: 85%;
+	color: white;
+	margin-left: 33%;
+	font-size: 1.2rem;
+	}
 #social_media{
 	position: absolute;
 	}
