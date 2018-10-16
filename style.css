@@ -10,6 +10,10 @@ src: url("fonts/RobotoCondensed-Bold.ttf");
 font-family: "Roboto Bold";
 src: url("fonts/Roboto-Bold.ttf");
 }
+@font-face {
+font-family: "Roboto Regular";
+src: url("fonts/Roboto-Regular.ttf");
+}
 @media screen and (max-width: 575px) {
     h1 {
 		text-align: center;
@@ -203,6 +207,7 @@ src: url("fonts/Roboto-Bold.ttf");
 html, body {
 	width: 100%;
 	margin: 0;
+	font-family: 'Roboto Regular', Arial, sans-serif;
 	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
