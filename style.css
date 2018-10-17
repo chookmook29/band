@@ -19,6 +19,10 @@ src: url("fonts/Roboto-Regular.ttf");
 		text-align: center;
 		font-size: 3rem;
 		}
+	h2 {
+		font-size: 6rem;
+		text-align: center;
+		}
 	li {
 		width: 10rem;
 		height: 2rem;
@@ -52,6 +56,10 @@ src: url("fonts/Roboto-Regular.ttf");
 		font-size: 5.4rem;
 		text-align: center;
 		}
+	h2 {
+		font-size: 9rem;
+		text-align: center;
+		}
 	li  {
 		width: 8.4rem;
 		height: 2rem;
@@ -80,6 +88,9 @@ src: url("fonts/Roboto-Regular.ttf");
 @media screen and (min-width: 768px) {
     h1 {
 		font-size: 10rem;
+		}
+	h2 {
+		font-size: 6rem;
 		}
 	nav { margin-top: 0;
 		}
@@ -122,6 +133,9 @@ src: url("fonts/Roboto-Regular.ttf");
     h1 {
 		font-size: 11rem;
 		}
+	h2 {
+		font-size: 8rem;
+		}
 	li {
 		height: 2.1rem;
 		width: 6.2rem;
@@ -155,7 +169,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		font-size: 14rem;
 		}
 	h2 {
-		font-size: 1.2rem;
+		font-size: 10rem;
 		}
 	li {
 		line-height: 2.4rem;
@@ -218,10 +232,13 @@ h1 {
 	color: white;
 	}
 h2 {
-	font-family: 'Roboto Bold', Arial, sans-serif;
+	font-family: 'ManMachine', Arial, sans-serif;
+	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
+	color: white;
 	}
 ul {
 	display: flex;
+	padding-left: 0;
 	}
 li {
 	list-style-type: none;
