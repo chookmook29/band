@@ -43,9 +43,6 @@ src: url("fonts/Roboto-Regular.ttf");
 	footer {
 		font-size: 0.5rem;
 		}
-	.fadeOut {
-		text-align: center;
-		}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -76,9 +73,6 @@ src: url("fonts/Roboto-Regular.ttf");
 		}
 	footer {
 		font-size: 0.5rem;
-		}
-	.fadeOut {
-		text-align: center;
 		}
 	.responsive {
 		width: 100%;
@@ -117,9 +111,6 @@ src: url("fonts/Roboto-Regular.ttf");
 		}
 	footer {
 		font-size: 0.6rem;
-		}
-	.fadeOut {
-		text-align: left;
 		}
 	.responsive {
 		width: 100%;
@@ -212,6 +203,7 @@ src: url("fonts/Roboto-Regular.ttf");
 .fadeOut {
         -webkit-animation-name: fadeOut;
         animation-name: fadeOut;
+        text-align: center;
         }
 
 
