@@ -111,9 +111,6 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	}
 @media screen and (min-width: 992px) {
-	header {
-		margin-top: -10px;
-	}
     h1 {
 		font-size: 11rem;
 		}
@@ -201,6 +198,7 @@ html, body {
 	background-size: cover;
 	background-color: black;
 	}
+
 h1 {
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
@@ -284,29 +282,30 @@ button:focus {
 	width: 100%;
 	height: auto;
 	}
-#band_image{
-	padding: 0;
+.header {
+	background-image: url("images/band.jpg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 115%;
+	width: 100%;
 	}
-#band_name{
+.band_name {
 	position: absolute;
-	top: 50%;
+  	bottom: 0;
 	}
 #signup {
 	position: absolute;
-	top: 80%;
+  	bottom: -5%;
 	color: white;
 	margin-left: 33%;
 	font-size: 1.2rem;
 	}
 #submit{
 	position: absolute;
-	top: 85%;
+  	bottom: -10%;
 	color: white;
 	margin-left: 33%;
 	font-size: 1.2rem;
-	}
-#social_media{
-	position: absolute;
 	}
 .table {
 	max-width: 90%;
