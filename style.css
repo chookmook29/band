@@ -86,7 +86,8 @@ src: url("fonts/Roboto-Regular.ttf");
 	h2 {
 		font-size: 6rem;
 		}
-	nav { margin-top: 0;
+	nav { 
+		margin-top: 0;
 		}
 	li {
 		margin-right: 25px;
@@ -349,4 +350,8 @@ button:focus {
 #image3 {
     -webkit-animation-delay: -2s;
 			animation-delay: -2s;
+}
+img {
+    border: 2px solid #000000;
+    padding: 1px;
 }
