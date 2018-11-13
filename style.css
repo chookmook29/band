@@ -283,7 +283,7 @@ button:focus {
 	height: auto;
 	}
 .header {
-	background-image: url("images/band.jpg");
+	background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	background-repeat: no-repeat;
   	background-size: cover;
 	height: 115%;
