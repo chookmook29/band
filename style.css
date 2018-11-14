@@ -297,14 +297,14 @@ button:focus {
 	position: absolute;
   	bottom: 0;
 	}
-#signup {
+.signup {
 	position: absolute;
   	bottom: -5%;
 	color: white;
 	margin-left: 33%;
 	font-size: 1.2rem;
 	}
-#submit{
+.submit{
 	position: absolute;
   	bottom: -10%;
 	color: white;
@@ -343,11 +343,11 @@ button:focus {
     53% {opacity: 0;}
     100% {opacity: 0;}
 }
-#image2 {
+.image2 {
     -webkit-animation-delay: -4s;
 			animation-delay: -4s;
 }
-#image3 {
+.image3 {
     -webkit-animation-delay: -2s;
 			animation-delay: -2s;
 }
