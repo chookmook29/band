@@ -288,6 +288,7 @@ button:focus {
 .band_name {
 	position: absolute;
   	bottom: 0;
+  	width: 100%;
 	}
 .signup {
 	position: absolute;
