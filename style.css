@@ -14,7 +14,34 @@ src: url("fonts/Roboto-Bold.ttf");
 font-family: "Roboto Regular";
 src: url("fonts/Roboto-Regular.ttf");
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) and (orientation: landscape){
+	h1 {
+		text-align: center;
+		font-size: 3rem;
+		}
+	h2 {
+		font-size: 6rem;
+		text-align: center;
+		}
+	li {
+		width: 10rem;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 1.2rem;
+		font-family: 'RobotoThin', Arial, sans-serif;
+		}
+	footer {
+		font-size: 0.5rem;
+		}
+	.responsive {
+		width: 100%;
+		height: auto;
+	}
+	.header {
+		background-image: url("images/background_small.jpg");
+	}
+}
+@media screen and (max-width: 575px) and (orientation: portrait) {
     h1 {
 		text-align: center;
 		font-size: 3rem;
@@ -37,7 +64,10 @@ src: url("fonts/Roboto-Regular.ttf");
 		width: 100%;
 		height: auto;
 	}
+	.header {
+		background-image: url("images/background_small.jpg");
 	}
+}
 @media screen and (min-width: 576px) {
     h1 {
 		font-size: 5.4rem;
@@ -61,7 +91,10 @@ src: url("fonts/Roboto-Regular.ttf");
 		width: 100%;
 		height: auto;
 	}
+	.header {
+		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	}
+}
 @media screen and (min-width: 768px) {
     h1 {
 		font-size: 10rem;
@@ -87,7 +120,10 @@ src: url("fonts/Roboto-Regular.ttf");
 		width: 100%;
 		height: auto;
 	}
+	.header {
+		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	}
+}
 @media screen and (min-width: 992px) {
     h1 {
 		font-size: 11rem;
@@ -109,7 +145,10 @@ src: url("fonts/Roboto-Regular.ttf");
 		max-width: 42%;
 		height: auto;
 	}
+	.header {
+		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	}
+}
 @media screen and (min-width: 1200px) {
     h1 {
 		font-size: 14rem;
@@ -132,9 +171,12 @@ src: url("fonts/Roboto-Regular.ttf");
 		max-width: 42%;
 		height: auto;
 	}
+	.header {
+		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
+	}
 	.fade-in img {
 		margin-left: 25%;
-		}
+	}
 }
 @-webkit-keyframes fadeOut {
 		0% {opacity: 0;}
@@ -238,9 +280,8 @@ button:focus {
 	height: auto;
 	}
 .header {
-	background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: 100%;
 	height: 115%;
 	width: 100%;
 	}
