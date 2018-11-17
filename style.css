@@ -53,8 +53,13 @@ src: url("fonts/Roboto-Regular.ttf");
 		display: block;
 	}
 	.form_control {
-	font-size: 18px;
+		font-size: 18px;
 	} 
+	.table {
+		max-width: 90%;
+		font-size: 10px;
+		font-family: 'Roboto Bold', Arial, sans-serif;
+	}
 }
 @media screen and (max-width: 575px) and (orientation: portrait) {
     h1 {
@@ -62,7 +67,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		font-size: 3rem;
 		}
 	h2 {
-		font-size: 6rem;
+		font-size: 4rem;
 		text-align: center;
 		}
 	li {
@@ -95,7 +100,12 @@ src: url("fonts/Roboto-Regular.ttf");
 		display: block;
 	}
 	.form_control {
-	font-size: 10px;
+		font-size: 10px;
+	}
+	.table {
+		max-width: 100%;
+		font-size: 10px;
+		font-family: 'Roboto Bold', Arial, sans-serif;
 	}
 }
 @media screen and (max-width: 575px) and (orientation: landscape) {
@@ -427,7 +437,12 @@ src: url("fonts/Roboto-Regular.ttf");
 		display: none;
 	}
 	.form_control {
-	font-size: 18px;
+		font-size: 18px;
+	}
+	.table {
+		max-width: 70%;
+		font-size: 14px;
+		font-family: 'RobotoThin', Arial, sans-serif;
 	}
 }
 @-webkit-keyframes fadeOut {
@@ -539,10 +554,6 @@ button:hover {
 	color: white;
 	width: 100%;
 	}
-.table {
-	max-width: 70%;
-	margin: 0 auto;
-	}
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -608,4 +619,7 @@ img {
 }
 .my_dropdown:hover .my_dropdown-content {
     display: block;
+}
+.table {
+	margin: 0 auto;
 }
