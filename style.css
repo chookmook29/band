@@ -294,15 +294,15 @@ button:focus {
 	position: absolute;
   	bottom: -5%;
 	color: white;
-	margin-left: 33%;
+	width: 100%;
 	font-size: 1.2rem;
 	}
 .submit{
 	position: absolute;
   	bottom: -10%;
 	color: white;
-	margin-left: 33%;
 	font-size: 1.2rem;
+	width: 100%;
 	}
 .table {
 	max-width: 90%;
