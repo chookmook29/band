@@ -37,6 +37,9 @@ src: url("fonts/Roboto-Regular.ttf");
 		width: 100%;
 		height: auto;
 	}
+	.responsive-full {
+		max-width: 66%;
+	}
 	.header {
 		background-image: url("images/background_small.jpg");
 	}
@@ -66,6 +69,9 @@ src: url("fonts/Roboto-Regular.ttf");
 	.responsive {
 		width: 100%;
 		height: auto;
+	}
+	.responsive-full {
+		max-width: 66%;
 	}
 	.header {
 		background-image: url("images/background_small.jpg");
@@ -97,6 +103,9 @@ src: url("fonts/Roboto-Regular.ttf");
 		width: 100%;
 		height: auto;
 	}
+	.responsive-full {
+		max-width: 66%;
+	}
 	.header {
 		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	}
@@ -108,10 +117,9 @@ src: url("fonts/Roboto-Regular.ttf");
 	h2 {
 		font-size: 6rem;
 		}
-	nav { 
-		margin-top: 0;
-		display: block;
-		}
+	nav {
+		display: none;
+	}
 	li {
 		margin-right: 25px;
 		font-family: 'RobotoThin', Arial, sans-serif;
@@ -126,6 +134,9 @@ src: url("fonts/Roboto-Regular.ttf");
 	.responsive {
 		width: 100%;
 		height: auto;
+	}
+	.responsive-full {
+		max-width: 66%;
 	}
 	.header {
 		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
@@ -155,6 +166,9 @@ src: url("fonts/Roboto-Regular.ttf");
 		max-width: 42%;
 		height: auto;
 	}
+	.responsive-full {
+		max-width: 42%;
+	}
 	.header {
 		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	}
@@ -183,6 +197,9 @@ src: url("fonts/Roboto-Regular.ttf");
 	.responsive {
 		max-width: 42%;
 		height: auto;
+	}
+	.responsive-full {
+		max-width: 33%;
 	}
 	.header {
 		background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
@@ -288,10 +305,6 @@ button:hover {
 .current {
 	color: #E82B01;
 	opacity: 0.5;
-	}
-.responsive-full {
-	width: 100%;
-	height: auto;
 	}
 .header {
 	background-repeat: no-repeat;

@@ -45,17 +45,19 @@
 				</nav>
 				</div>
 			</header>
-			<div class="row">
-			<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4"></div>
-			<div class="col-xl-4 col-lg-4 col-md-4 c12">
-			<img src="images/album.jpg" alt="Album cover" class="responsive-full">
-			<audio id="player" src="https://s3.eu-west-2.amazonaws.com/kraftwerkband/song.mp3" class="fadeOut"></audio>
+			<div class="justify-content-center text-center">
+				<img src="images/album.jpg" alt="Album cover" class="responsive-full">
+				<div>
+				<audio id="player" src="https://s3.eu-west-2.amazonaws.com/kraftwerkband/song.mp3" class="fadeOut"></audio>
+				</div>
+				</div>
 				<div class="fadeOut text-center">
 				  <button class="fadeOut" onclick="document.getElementById('player').play()">PLAY</button>
 				  <button class="fadeOut" onclick="document.getElementById('player').pause()">PAUSE</button>
 				  <button class="fadeOut" onclick="document.getElementById('player').volume += 0.1">VOL+ </button>
 				  <button class="fadeOut" onclick="document.getElementById('player').volume -= 0.1">VOL- </button>
 				</div>
+			
 		<footer class="row justify-content-center">Copyright &#169; 2018</footer>
 		</div>
     </body>
