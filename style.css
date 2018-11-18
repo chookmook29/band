@@ -505,6 +505,7 @@ a:hover {
 	text-decoration: none;
 	}
 i {
+	padding-top: 11px;
 	color: white;
 	opacity: 0.8;
 	}
@@ -595,6 +596,7 @@ img {
     padding: 1px;
 }
 .my_dropdown {
+	padding-top: 11px;
     position: relative;
     display: inline-block;
 	justify-content: space-between;
