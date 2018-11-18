@@ -17,7 +17,7 @@ src: url("fonts/Roboto-Regular.ttf");
 @media screen and (max-width: 575px) and (orientation: landscape){
 	h1 {
 		text-align: center;
-		font-size: 3rem;
+		font-size: 4rem;
 		}
 	h2 {
 		font-size: 6rem;
@@ -35,7 +35,10 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	footer {
 		font-size: 0.5rem;
-		}
+	}
+	i {
+		padding-bottom: 50px;
+	}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -51,6 +54,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	.dropbtn {
 		display: block;
+		font-size: 30px;
 	}
 	.form_control {
 		font-size: 18px;
@@ -64,7 +68,7 @@ src: url("fonts/Roboto-Regular.ttf");
 @media screen and (max-width: 575px) and (orientation: portrait) {
     h1 {
 		text-align: center;
-		font-size: 3rem;
+		font-size: 4rem;
 		}
 	h2 {
 		font-size: 4rem;
@@ -82,7 +86,10 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	footer {
 		font-size: 0.5rem;
-		}
+	}
+	i {
+		padding-bottom: 50px;
+	}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -98,6 +105,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	.dropbtn {
 		display: block;
+		font-size: 40px;
 	}
 	.form_control {
 		font-size: 10px;
@@ -111,7 +119,7 @@ src: url("fonts/Roboto-Regular.ttf");
 @media screen and (max-width: 575px) and (orientation: landscape) {
     h1 {
 		text-align: center;
-		font-size: 3rem;
+		font-size: 6rem;
 		}
 	h2 {
 		font-size: 6rem;
@@ -129,7 +137,10 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	footer {
 		font-size: 0.5rem;
-		}
+	}
+	i {
+		padding-bottom: 50px;
+	}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -145,6 +156,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	.dropbtn {
 		display: block;
+		font-size: 40px;
 	}
 	.form_control {
 	font-size: 14px;
@@ -156,7 +168,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		text-align: center;
 		}
 	h2 {
-		font-size: 9rem;
+		font-size: 5rem;
 		text-align: center;
 		}
 	li  {
@@ -171,7 +183,10 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	footer {
 		font-size: 0.5rem;
-		}
+	}
+	i {
+		padding-bottom: 50px;
+	}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -187,14 +202,15 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	.dropbtn {
 		display: block;
+		font-size: 50px;
 	}
 	.form_control {
-	font-size: 14px;
+		font-size: 14px;
 	}
 }
 @media screen and (min-width: 576px) and (orientation: portrait) {
     h1 {
-		font-size: 5.4rem;
+		font-size: 6.5rem;
 		text-align: center;
 		}
 	h2 {
@@ -213,7 +229,10 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	footer {
 		font-size: 0.5rem;
-		}
+	}
+	i {
+		padding-bottom: 50px;
+	}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -225,13 +244,14 @@ src: url("fonts/Roboto-Regular.ttf");
 		height: 70%;
 	}
 	.band_name {
-		bottom: 50%;
+		bottom: 30%;
 	}
 	.dropbtn {
 		display: block;
+		font-size: 50px;
 	}
 	.form_control {
-	font-size: 18px;
+		font-size: 18px;
 	}
 }
 @media screen and (min-width: 768px) and (orientation: landscape) {
@@ -254,7 +274,10 @@ src: url("fonts/Roboto-Regular.ttf");
 		}
 	footer {
 		font-size: 0.6rem;
-		}
+	}
+	i {
+		padding-bottom: 50px;
+	}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -270,6 +293,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	.dropbtn {
 		display: block;
+		font-size: 60px;
 	}
 	.form_control {
 	font-size: 18px;
@@ -296,6 +320,9 @@ src: url("fonts/Roboto-Regular.ttf");
 	footer {
 		font-size: 0.6rem;
 		}
+	i {
+		padding-bottom: 50px;
+	}
 	.responsive {
 		width: 100%;
 		height: auto;
@@ -311,6 +338,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	.dropbtn {
 		display: block;
+		font-size: 60px;
 	}
 	.form_control {
 	font-size: 18px;
@@ -507,10 +535,10 @@ a:hover {
 i {
 	padding-top: 11px;
 	color: white;
-	opacity: 0.8;
+	opacity: 1;
 	}
 i:hover {
-	opacity: 1;
+	opacity: 0.8;
 	}
 footer {
 	color: gray;
@@ -533,6 +561,7 @@ button {
 button:focus {
 	outline: 0;
 	background-color: white;
+	border: 3px solid white;
 	}
 button:hover {
 	cursor: pointer;
@@ -549,9 +578,10 @@ button:hover {
 	}
 .band_name {
 	position: absolute;
-	width: 100%;
+	max-width: 100%;
 	}
 .form_control {
+	text-align: center;
 	color: white;
 	width: 100%;
 	}
@@ -596,7 +626,6 @@ img {
     padding: 1px;
 }
 .my_dropdown {
-	padding-top: 11px;
     position: relative;
     display: inline-block;
 	justify-content: space-between;
@@ -605,7 +634,8 @@ img {
     display: none;
     position: absolute;
     right: 0;
-    background-color: #f9f9f9;
+    background-color: #E82B01;
+    opacity: 0.7;
     min-width: 160px;
     z-index: 1;
 }
@@ -624,4 +654,21 @@ img {
 }
 .table {
 	margin: 0 auto;
+}
+.dropbtn {
+	background-color: Transparent;
+	color: white;
+	border: none;
+}
+.dropbtn:focus {
+	background-color: Transparent;
+	color: white;
+	opacity: 0.8;
+	border: none;
+}
+.dropbtn:hover {
+	background-color: Transparent;
+	color: white;
+	opacity: 0.8;
+	border: none;
 }
