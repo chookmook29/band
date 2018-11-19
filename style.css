@@ -614,14 +614,6 @@ button:hover {
     53% {opacity: 0;}
     100% {opacity: 0;}
 }
-.image2 {
-    -webkit-animation-delay: -4s;
-			animation-delay: -4s;
-}
-.image3 {
-    -webkit-animation-delay: -2s;
-			animation-delay: -2s;
-}
 img {
     border: 2px solid #000000;
     padding: 1px;
