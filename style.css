@@ -263,7 +263,7 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 160px;
 		}
 	h2 {
-		font-size: 96px;
+		font-size: 120px;
 		}
 	ul {
 		display: none;
@@ -276,6 +276,9 @@ src: url("fonts/Roboto-Light.ttf");
 		line-height: 32px;
 		font-size: 16px;
 		}
+	p {
+		max-width: 80%;
+	}
 	footer {
 		font-size: 10px;
 	}
@@ -308,7 +311,7 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 160px;
 		}
 	h2 {
-		font-size: 96px;
+		font-size: 144px;
 		}
 	ul {
 		display: none;
@@ -321,9 +324,12 @@ src: url("fonts/Roboto-Light.ttf");
 		line-height: 32px;
 		font-size: 16px;
 		}
+	p {
+		max-width: 90%;
+	}
 	footer {
 		font-size: 10px;
-		}
+	}
 	i {
 		padding-bottom: 50px;
 	}
@@ -353,7 +359,7 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 176px;
 		}
 	h2 {
-		font-size: 128px;
+		font-size: 120px;
 		}
 	ul { 
 		display: flex;
@@ -365,9 +371,12 @@ src: url("fonts/Roboto-Light.ttf");
 		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 26px;
 		}
+	p {
+		max-width: 42%;
+	}
 	footer {
 		font-size: 11px;
-		}
+	}
 	.responsive {
 		max-width: 42%;
 		height: auto;
@@ -405,9 +414,12 @@ src: url("fonts/Roboto-Light.ttf");
 		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 26px;
 		}
+	p {
+		max-width: 42%;
+	}
 	footer {
 		font-size: 11px;
-		}
+	}
 	.responsive {
 		max-width: 42%;
 		height: auto;
@@ -433,7 +445,7 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 224px;
 		}
 	h2 {
-		font-size: 160px;
+		font-size: 140px;
 		}
 	ul { 
 		display: flex;
@@ -446,9 +458,12 @@ src: url("fonts/Roboto-Light.ttf");
 		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 29px;
 		}
+	p {
+		max-width: 42%;
+	}
 	footer {
 		font-size: 16px;
-		}
+	}
 	.responsive {
 		max-width: 42%;
 		height: auto;
@@ -529,6 +544,9 @@ li span:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AF1400', endColorstr='#D02A04',GradientType=1 );
 	opacity: 0.7;
 	}
+ul {
+	padding-left: 0;
+}
 a {
 	color: #FFFFFF;
 	}
@@ -536,6 +554,11 @@ a:hover {
 	color: #FFFFFF;
 	text-decoration: none;
 	}
+p {
+	margin: auto;
+	color: #969696;
+	margin-bottom: 10px;
+}
 i {
 	padding-top: 11px;
 	color: #FFFFFF;
