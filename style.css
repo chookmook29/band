@@ -3,7 +3,7 @@ font-family: "ManMachine";
 src: url("fonts/ManMachine.ttf");
 }
 @font-face {
-font-family: "RobotoThin";
+font-family: "Roboto Thin";
 src: url("fonts/Roboto-Thin.ttf");
 }
 @font-face {
@@ -28,7 +28,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		height: 32px;
 		line-height: 32px;
 		font-size: 19px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		}
 	ul {
 		display: none;
@@ -79,7 +79,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		height: 32px;
 		line-height: 32px;
 		font-size: 19px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		}
 	ul {
 		display: none;
@@ -130,7 +130,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		height: 32px;
 		line-height: 32px;
 		font-size: 19px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		}
 	ul {
 		display: none;
@@ -176,7 +176,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		height: 32px;
 		line-height: 32px;
 		font-size: 24px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		}
 	ul {
 		display: none;
@@ -222,7 +222,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		height: 32px;
 		line-height: 32px;
 		font-size: 24px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		}
 	ul {
 		display: none;
@@ -266,7 +266,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	li {
 		margin-right: 25px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		width: 83px;
 		height: 32px;
 		line-height: 32px;
@@ -311,7 +311,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	}
 	li {
 		margin-right: 25px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		width: 83px;
 		height: 32px;
 		line-height: 32px;
@@ -358,7 +358,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		margin-right: 25px;
 		height: 34px;
 		width: 99px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 26px;
 		}
 	footer {
@@ -398,7 +398,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		margin-right: 25px;
 		height: 34px;
 		width: 99px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 26px;
 		}
 	footer {
@@ -439,7 +439,7 @@ src: url("fonts/Roboto-Regular.ttf");
 		line-height: 38px;
 		width: 107px;
 		height: 38px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 29px;
 		}
 	footer {
@@ -470,7 +470,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	.table {
 		max-width: 70%;
 		font-size: 14px;
-		font-family: 'RobotoThin', Arial, sans-serif;
+		font-family: "Roboto Thin", Arial, sans-serif;
 	}
 }
 @-webkit-keyframes fadeOut {
@@ -503,12 +503,12 @@ html, body {
 h1 {
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
-	color: white;
+	color: #FFFFFF;
 	}
 h2 {
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
-	color: white;
+	color: #FFFFFF;
 	}
 li {
 	list-style-type: none;
@@ -518,23 +518,23 @@ li {
 li span:hover {
 	text-decoration: none;
 	color: #FFFFFF;
-	background: #E82B01;
-	background: -moz-linear-gradient(-45deg, #E82B01 0%, #D02A04 100%);
-	background: -webkit-linear-gradient(-45deg, #E82B01 0%,#D02A04 100%);
-	background: linear-gradient(135deg, #E82B01 0%,#D02A04 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E82B01', endColorstr='#D02A04',GradientType=1 );
-	opacity: 0.9;
+	background: #AF1400;
+	background: -moz-linear-gradient(-45deg, #AF1400 0%, #D02A04 100%);
+	background: -webkit-linear-gradient(-45deg, #AF1400 0%,#D02A04 100%);
+	background: linear-gradient(135deg, #AF1400 0%,#D02A04 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AF1400', endColorstr='#D02A04',GradientType=1 );
+	opacity: 0.7;
 	}
 a {
-	color: white;
+	color: #FFFFFF;
 	}
 a:hover {
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 	}
 i {
 	padding-top: 11px;
-	color: white;
+	color: #FFFFFF;
 	opacity: 1;
 	}
 i:hover {
@@ -551,23 +551,25 @@ video {
 			animation-fill-mode: both;
 	}
 button {
-	background-color: #E82B01;
-	border: 3px solid #E42B01;
+	background-color: #AF1400;
+	border: 3px solid #AF1400;
+	color: #FFFFFF;
 	text-decoration: none;
-	font-family: 'RobotoThin', Arial, sans-serif;
+	font-family: 'Roboto Thin', Arial, sans-serif;
 	-webkit-animation-duration: 1s;animation-duration: 1s;
     -webkit-animation-fill-mode: both;animation-fill-mode: both;
 	}
 button:focus {
 	outline: 0;
-	background-color: white;
-	border: 3px solid white;
+	color: black;
+	background-color: #FFFFFF;
+	border: 3px solid #FFFFFF;
 	}
 button:hover {
 	cursor: pointer;
 	}
 .current {
-	color: #E82B01;
+	color: #AF1400;
 	opacity: 0.5;
 	}
 .header {
@@ -583,7 +585,7 @@ button:hover {
 	}
 .form_control {
 	text-align: center;
-	color: white;
+	color: #FFFFFF;
 	width: 100%;
 	}
 .text-focus-in {
@@ -626,21 +628,23 @@ img {
 .my_dropdown-content {
     display: none;
     position: absolute;
+    font-family: 'Roboto Regular';
     right: 0;
-    background-color: #E82B01;
-    opacity: 0.7;
+    background-color: #AF1400;
+    opacity: 0.9;
     min-width: 160px;
     z-index: 1;
 }
 
 .my_dropdown-content a {
-    color: black;
+    color: #FFFFFF;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 .my_dropdown-content a:hover {
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
+	color: black;
 }
 .my_dropdown:hover .my_dropdown-content {
     display: block;
@@ -650,18 +654,18 @@ img {
 }
 .dropbtn {
 	background-color: Transparent;
-	color: white;
+	color: #FFFFFF;
 	border: none;
 }
 .dropbtn:focus {
 	background-color: Transparent;
-	color: white;
+	color: #FFFFFF;
 	opacity: 0.8;
 	border: none;
 }
 .dropbtn:hover {
 	background-color: Transparent;
-	color: white;
+	color: #FFFFFF;
 	opacity: 0.8;
 	border: none;
 }
