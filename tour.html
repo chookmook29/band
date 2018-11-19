@@ -1,144 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!--Default language declaration-->
     <head>
-        <!-- Required Bootstrap meta tags -->
+        <!--Required Bootstrap meta tags-->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 		<!-- Bootstrap CSS -->
+ 		<!--Bootstrap CSS-->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	    <!-- Social media icon CSS -->
+	    <!--Social media icon CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-		<!-- CSS stylesheet -->
+		<!--CSS stylesheet-->
         <link rel = "stylesheet" type = "text/css" href = "style.css">
         <title>Kraftwerk</title>
     </head>
     <body>
 		<div class="container-fluid">
-			<header>
-				<i class="fab fa-facebook-square fa-2x"></i>
-				<i class="fab fa-youtube-square fa-2x"></i>
-				<i class="fab fa-twitter-square fa-2x"></i>
-				<i class="fab fa-instagram fa-2x"></i>
-	          	<i class="fab fa-spotify fa-2x"></i>
-				<div class="my_dropdown float-right">
-					<button class="dropbtn">&#9776</button>
-					<div class="my_dropdown-content">
-						<a href="index.html">HOME</a>
-						<a href="video.html">VIDEO</a>
-						<a href="music.html">MUSIC</a>
-						<a href="photo.html">PHOTO</a>
-						<a href="tour.html">TOUR</a>
+			<header><!--Header element of the page-->
+				<div class="row">
+					<div class="col-12"><!--Top row, icons-->
+						<i class="fab fa-facebook-square fa-2x"></i><!--Social media icons-->
+						<i class="fab fa-youtube-square fa-2x"></i>
+						<i class="fab fa-twitter-square fa-2x"></i>
+						<i class="fab fa-instagram fa-2x"></i>
+			          	<i class="fab fa-spotify fa-2x"></i>
+						<div class="my_dropdown float-right"><!--Dropdown menu part-->
+							<button class="dropbtn">&#9776;</button><!--Dropdown button visible on smaller screens-->
+							<div class="my_dropdown-content"><!--Subpages-->
+								<a href="index.html">HOME</a>
+								<a href="video.html">VIDEO</a>
+								<a href="music.html">MUSIC</a>
+								<a href="photo.html">PHOTO</a>
+								<a href="tour.html">TOUR</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row justify-content-center">
-				<h2>KRAFTWERK</h2>
-				<nav>
-					<ul>
-            			<li><a href="index.html"><span>HOME</span></a></li>
-						<li><a href="video.html"><span>VIDEO</span></a></li>
-						<li><a href="music.html"><span>MUSIC</span></a></li>
-						<li><a href="photo.html"><span>PHOTO</span></a></li>
-						<li class="current"><a href="tour.html"><span>TOUR</span></a></li>
-					</ul>
-				</nav>
+				<div class="row"><!--Second row, band name and navbar-->
+					<div class="col-lg-6 col-md-12">
+						<h2>KRAFTWERK</h2><!--Band name, column expanding to full row on smaller screens-->
+					</div>
+					<div class="col-lg-6 d-none d-lg-block"><!--Navbar column hidden on small screens-->
+						<nav>
+							<ul><!--List of all subpages-->
+		            			<li><a href="index.html"><span>HOME</span></a></li>
+								<li><a href="video.html"><span>VIDEO</span></a></li>
+								<li><a href="music.html"><span>MUSIC</span></a></li>
+								<li><a href="photo.html"><span>PHOTO</span></a></li>
+								<li class="current"><a href="tour.html"><span>TOUR</span></a></li><!--Different styling of current page-->
+							</ul>
+						</nav>
+					</div>	
 				</div>
 			</header>
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"></div>
-			<table class="table">
-			  <tbody>
-				<tr>
-				  <td><a href="_blank">11 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">ST PETERSBURG</a></td>
-				  <td><a href="_blank">YUBILEYNY</a></td>  
-				</tr>
-				<tr>
-				  <td><a href="_blank">13 FEB 2018</a></td>
-				  <td><a href="_blank">19:00</a></td>
-				  <td><a href="_blank">MOSCOW</a></td>
-				  <td><a href="_blank">KREMLIN PALACE</a></td>	  
-				</tr>
-				<tr>
-				  <td><a href="_blank">15 FEB 2018</a></td>
-				  <td><a href="_blank">19:00</a></td>
-				  <td><a href="_blank">HELSINKI</a></td>
-				  <td><a href="_blank">FINLANDIA TALO</a></td>  
-				</tr>
-				<tr>
-				  <td><a href="_blank">15 FEB 2018</a></td>
-				  <td><a href="_blank">22:30</a></td>
-				  <td><a href="_blank">HELSINKI</a></td>
-				  <td><a href="_blank">FINLANDIA TALO</a></td>
-				</tr>
-				<tr>
-				  <td><a href="_blank">17 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">TALLINN</a></td>
-				  <td><a href="_blank">SAKU ARENA</a></td>
-				</tr>
-				<tr>
-				  <td><a href="_blank">18 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">RIGA</a></td>
-				  <td><a href="_blank">ARENA RIGA</a></td>
-				</tr>
-				<tr>
-				  <td><a href="_blank">19 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">KAUNAS</a></td>
-				  <td><a href="_blank">ZALGIRIS ARENA</a></td>
-				</tr>
-				<tr>
-				  <td><a href="_blank">21 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">BUDAPEST</a></td>
-				  <td><a href="_blank">PAPP LAZLO SPORTARENA</a></td>	  
-				</tr>
-				<tr>
-				  <td><a href="_blank">22 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">LJUBLJANA</a></td>
-				  <td><a href="_blank">DVORANA TIVOLI SPORTS-ARENA</a></td>  
-				</tr>
-				<tr>
-				  <td><a href="_blank">23 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">BELGRADE</a></td>
-				  <td><a href="_blank">STARK ARENA</a></td>  
-				</tr>
-				<tr>
-				  <td><a href="_blank">25 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">SARAJEVO</a></td>
-				  <td><a href="_blank">MIRZA DELIBASIC HALL</a></td>  
-				</tr>
-				<tr>
-				  <td><a href="_blank">26 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">SKOPJE</a></td>
-				  <td><a href="_blank">SPORTSKI CENTAR</a></td>  
-				</tr>
-				<tr>
-				  <td><a href="_blank">28 FEB 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">SOFIA</a></td>
-				  <td><a href="_blank">UNIVERSIADA HALL</a></td> 
-				</tr>
-				<tr>
-				  <td><a href="_blank">01 MAR 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">BUCAREST</a></td>
-				  <td><a href="_blank">ARENELE ROMANE</a></td>
-				</tr>
-				<tr>
-				  <td><a href="_blank">03 MAR 2018</a></td>
-				  <td><a href="_blank">20:00</a></td>
-				  <td><a href="_blank">ATHENS</a></td>
-				  <td><a href="_blank">FALIRON PAVILION</a></td> 
-				</tr>
-			  </tbody>
-			</table>
-			<footer class="row justify-content-center">Copyright &#169; 2018</footer>
+			<main class="row"><!--Main content of the page-->
+				<div class="col-12">
+					<table class="table"><!--Responsive table with all upcoming gigs-->
+						<tbody>
+							<tr>
+								<td><a href="_blank">11 FEB 2018</a></td><!--External links empty, otherwise would redirect to ticket shop-->
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">ST PETERSBURG</a></td>
+								<td><a href="_blank">YUBILEYNY</a></td>  
+							</tr>
+							<tr>
+								<td><a href="_blank">13 FEB 2018</a></td>
+								<td><a href="_blank">19:00</a></td>
+								<td><a href="_blank">MOSCOW</a></td>
+								<td><a href="_blank">KREMLIN PALACE</a></td>	  
+							</tr>
+							<tr>
+								<td><a href="_blank">15 FEB 2018</a></td>
+								<td><a href="_blank">19:00</a></td>
+								<td><a href="_blank">HELSINKI</a></td>
+								<td><a href="_blank">FINLANDIA TALO</a></td>  
+							</tr>
+							<tr>
+								<td><a href="_blank">15 FEB 2018</a></td>
+								<td><a href="_blank">22:30</a></td>
+								<td><a href="_blank">HELSINKI</a></td>
+								<td><a href="_blank">FINLANDIA TALO</a></td>
+							</tr>
+							<tr>
+								<td><a href="_blank">17 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">TALLINN</a></td>
+								<td><a href="_blank">SAKU ARENA</a></td>
+							</tr>
+							<tr>
+								<td><a href="_blank">18 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">RIGA</a></td>
+								<td><a href="_blank">ARENA RIGA</a></td>
+							</tr>
+							<tr>
+								<td><a href="_blank">19 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">KAUNAS</a></td>
+								<td><a href="_blank">ZALGIRIS ARENA</a></td>
+							</tr>
+							<tr>
+								<td><a href="_blank">21 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">BUDAPEST</a></td>
+								<td><a href="_blank">PAPP LAZLO SPORTARENA</a></td>	  
+							</tr>
+							<tr>
+								<td><a href="_blank">22 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">LJUBLJANA</a></td>
+								<td><a href="_blank">DVORANA TIVOLI SPORTS-ARENA</a></td>  
+							</tr>
+							<tr>
+								<td><a href="_blank">23 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">BELGRADE</a></td>
+								<td><a href="_blank">STARK ARENA</a></td>  
+							</tr>
+							<tr>
+								<td><a href="_blank">25 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">SARAJEVO</a></td>
+								<td><a href="_blank">MIRZA DELIBASIC HALL</a></td>  
+							</tr>
+							<tr>
+								<td><a href="_blank">26 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">SKOPJE</a></td>
+								<td><a href="_blank">SPORTSKI CENTAR</a></td>  
+							</tr>
+							<tr>
+								<td><a href="_blank">28 FEB 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">SOFIA</a></td>
+								<td><a href="_blank">UNIVERSIADA HALL</a></td> 
+							</tr>
+							<tr>
+								<td><a href="_blank">01 MAR 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">BUCAREST</a></td>
+								<td><a href="_blank">ARENELE ROMANE</a></td>
+							</tr>
+							<tr>
+								<td><a href="_blank">03 MAR 2018</a></td>
+								<td><a href="_blank">20:00</a></td>
+								<td><a href="_blank">ATHENS</a></td>
+								<td><a href="_blank">FALIRON PAVILION</a></td> 
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</main>
+			<footer class="row justify-content-center">Copyright &#169; 2018</footer><!--Footer element of the page-->
 		</div>
     </body>
 </html>
