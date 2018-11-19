@@ -14,6 +14,10 @@ src: url("fonts/Roboto-Bold.ttf");
 font-family: "Roboto Regular";
 src: url("fonts/Roboto-Regular.ttf");
 }
+@font-face {
+font-family: "Roboto Light";
+src: url("fonts/Roboto-Light.ttf");
+}
 @media screen and (max-width: 575px) and (orientation: landscape){
 	h1 {
 		text-align: center;
@@ -470,7 +474,7 @@ src: url("fonts/Roboto-Regular.ttf");
 	.table {
 		max-width: 70%;
 		font-size: 14px;
-		font-family: "Roboto Thin", Arial, sans-serif;
+		font-family: "Roboto Light", Arial, sans-serif;
 	}
 }
 @-webkit-keyframes fadeOut {
@@ -628,7 +632,7 @@ img {
 .my_dropdown-content {
     display: none;
     position: absolute;
-    font-family: 'Roboto Regular';
+    font-family: "Roboto Light";
     right: 0;
     background-color: #AF1400;
     opacity: 0.9;
