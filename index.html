@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Required Bootstrap meta tags -->
+        <!--Required Bootstrap meta tags-->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 		<!-- Bootstrap CSS -->
+ 		<!--Bootstrap CSS-->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	    <!-- Social media icon CSS -->
+	    <!--Social media icon CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-		<!-- CSS stylesheet -->
+		<!--CSS stylesheet-->
         <link rel = "stylesheet" type = "text/css" href = "style.css">
         <title>Kraftwerk</title>
     </head>
     <body>
-		<header class="container-fluid header">
-			<i class="fab fa-facebook-square fa-2x"></i>
-				<i class="fab fa-youtube-square fa-2x"></i>
-				<i class="fab fa-twitter-square fa-2x"></i>
-				<i class="fab fa-instagram fa-2x"></i>
-	          	<i class="fab fa-spotify fa-2x"></i>
-				<div class="my_dropdown float-right">
-					<button class="dropbtn">&#9776</button>
-					<div class="my_dropdown-content">
-						<a href="index.html">HOME</a>
-						<a href="video.html">VIDEO</a>
-						<a href="music.html">MUSIC</a>
-						<a href="photo.html">PHOTO</a>
-						<a href="tour.html">TOUR</a>
+    	<div class="container-fluid header">
+			<header>
+				<div class="row"><!--Top row, icons-->
+					<div class="col-12">
+						<i class="fab fa-facebook-square fa-2x"></i><!--Social media icons-->
+						<i class="fab fa-youtube-square fa-2x"></i>
+						<i class="fab fa-twitter-square fa-2x"></i>
+						<i class="fab fa-instagram fa-2x"></i>
+						<i class="fab fa-spotify fa-2x"></i>
+						<div class="my_dropdown float-right"><!--Dropdown menu part-->
+						<button class="dropbtn">&#9776;</button><!--Dropdown button visible on smaller screens-->
+						<div class="my_dropdown-content"><!--Subpages-->
+							<a href="index.html">HOME</a>
+							<a href="video.html">VIDEO</a>
+							<a href="music.html">MUSIC</a>
+							<a href="photo.html">PHOTO</a>
+							<a href="tour.html">TOUR</a>
+						</div>
+						</div>
 					</div>
 				</div>
-			<div class="row band_name justify-content-center">
-          		<h1>KRAFTWERK</h1>
-	          		<div class="form_control justify-content-center">Sign-up to receive all the latest Kraftwerk news</div>
-		          	<div class="form_control justify-content-center">
+				<div class="row band_name justify-content-center">
+					<div class="d-flex flex-column">
 		          		<div>
+		          			<h1>KRAFTWERK</h1>
+		          		</div>
+		          		<div class="form_control">Sign-up to receive all the latest Kraftwerk news</div>
+		          		<div class="form_control">
 			          		<input type="email" aria-describedby="emailHelp" placeholder="Enter email">
 			          		<button type="submit" class="fadeOut">SUBMIT</button>
 		          		</div>
-		        	</div>
-        	</div>
-        	
-		</header>
-		<main class="container-fluid">
-			<nav class="row justify-content-center">
-				<ul>
-					<li class="current"><a href="index.html"><span>HOME</span></a></li>
-					<li><a href="video.html"><span>VIDEO</span></a></li>
-					<li><a href="music.html"><span>MUSIC</span></a></li>
-					<li><a href="photo.html"><span>PHOTO</span></a></li>
-					<li><a href="tour.html"><span>TOUR</span></a></li>
-				</ul>
-			</nav>
-		</main>
-		<footer class="container-fluid justify-content-center">Copyright &#169; 2018</footer>
+	          		</div>
+	       		</div>
+			</header>
+		</div>
+		<div class="container-fluid">
+			<main><!--Main content of the page-->
+				<nav class="row justify-content-center">
+					<ul>
+						<li class="current"><a href="index.html"><span>HOME</span></a></li>
+						<li><a href="video.html"><span>VIDEO</span></a></li>
+						<li><a href="music.html"><span>MUSIC</span></a></li>
+						<li><a href="photo.html"><span>PHOTO</span></a></li>
+						<li><a href="tour.html"><span>TOUR</span></a></li>
+					</ul>
+				</nav>
+				<article class="row justify-content-center">
+					<p>Kraftwerk is a band formed in Düsseldorf in 1970 by Ralf Hütter and Florian Schneider. Widely considered to be innovators and pioneers of electronic music, they are among the first successful acts to popularize the genre. The group began as part of experimental krautrock scene in the early 1970s before fully embracing electronic instrumentation, including synthesizers, drum machines, vocoders, and home-made experimental musical instruments. On commercially successful albums such as Autobahn (1974), Trans-Europe Express (1977), and The Man-Machine (1978), Kraftwerk developed a self-described "robot pop" style that combined electronic music with pop melodies, sparse arrangements, and repetitive rhythms, while adopting a stylized image including matching suits. The band’s work would exert a lasting and profound influence across many genres of modern music, including synthpop, hip hop, post-punk, techno, ambient, and club music, and inspired a wide and diverse range of artists. According to The Observer, "no other band since the Beatles has given so much to pop culture." Following the release of Electric Café (1986), member Wolfgang Flür left the group in 1987. Their last album Tour de France Soundtracks was released in 2003. Founding member Schneider departed in 2008. In 2014, the Recording Academy honored Kraftwerk with a Grammy Lifetime Achievement Award. As of 2018, the remaining members of the band continue to tour.
+					</p>
+				</article>
+			</main>
+		</div>
+		<div class="container-fluid justify-content-center"><!--Footer element of the page-->
+			<footer>Copyright &#169; 2018</footer>
+		</div>
     </body>
 </html>
