@@ -463,12 +463,12 @@ src: url("fonts/Roboto-Light.ttf");
 @-webkit-keyframes fadeOut {
 		0% {opacity: 0;}
 		100% {opacity: 0.8;}
-	}
+}
 
 @keyframes fadeOut {
         0% {opacity: 0;}
         100% {opacity: 0.8;}
-        }
+}
 
 .fadeOut {
         -webkit-animation-name: fadeOut;
@@ -485,23 +485,23 @@ html, body {
 	-o-background-size: cover;
 	background-size: cover;
 	background-color: #000000;
-	}
+}
 
 h1 {
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
 	color: #FFFFFF;
-	}
+}
 h2 {
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
 	color: #FFFFFF;
-	}
+}
 li {
 	list-style-type: none;
 	text-align: center;
 	margin-top: 2%;
-	}
+}
 li span:hover {
 	text-decoration: none;
 	color: #FFFFFF;
@@ -511,17 +511,17 @@ li span:hover {
 	background: linear-gradient(135deg, #AF1400 0%,#D02A04 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AF1400', endColorstr='#D02A04',GradientType=1 );
 	opacity: 0.7;
-	}
+}
 ul {
 	padding-left: 0;
 }
 a {
 	color: #FFFFFF;
-	}
+}
 a:hover {
 	color: #FFFFFF;
 	text-decoration: none;
-	}
+}
 p {	
 	font-size: 10px;
 	margin: auto;
@@ -534,20 +534,20 @@ i {
 	padding-top: 11px;
 	color: #FFFFFF;
 	opacity: 1;
-	}
+}
 i:hover {
 	opacity: 0.8;
-	}
+}
 footer {
 	color: gray;
 	text-align: center;
-	}
+}
 video {
 	-webkit-animation-duration: 2s;
 			animation-duration: 2s;
     -webkit-animation-fill-mode: both;
 			animation-fill-mode: both;
-	}
+}
 button {
 	background-color: #AF1400;
 	border: 3px solid #AF1400;
@@ -556,37 +556,37 @@ button {
 	font-family: "Roboto Thin", Arial, sans-serif;
 	-webkit-animation-duration: 1s;animation-duration: 1s;
     -webkit-animation-fill-mode: both;animation-fill-mode: both;
-	}
+}
 button:focus {
 	outline: 0;
 	color: #000000;
 	background-color: #FFFFFF;
 	border: 3px solid #FFFFFF;
-	}
+}
 button:hover {
 	cursor: pointer;
-	}
+}
 .current {
 	color: #AF1400;
 	opacity: 0.5;
-	}
+}
 .header {
 	background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
 	background-repeat: no-repeat;
   	background-size: 100%;
 	width: 100%;
-	}
+}
 .band_name {
 	position: absolute;
 	max-width: 100%;
 	width: 100%;
-	}
+}
 .form_control {
 	text-align: center;
 	color: #FFFFFF;
 	width: 100%;
 	font-family: "Roboto Light", Arial, sans-serif;
-	}
+}
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
