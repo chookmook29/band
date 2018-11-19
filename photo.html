@@ -1,67 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!--Default language declaration-->
     <head>
-        <!-- Required Bootstrap meta tags -->
+        <!--Required Bootstrap meta tags-->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 		<!-- Bootstrap CSS -->
+ 		<!--Bootstrap CSS-->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	    <!-- Social media icon CSS -->
+	    <!--Social media icon CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-		<!-- CSS stylesheet -->
+		<!--CSS stylesheet-->
         <link rel = "stylesheet" type = "text/css" href = "style.css">
         <title>Kraftwerk</title>
     </head>
     <body>
 		<div class="container-fluid">
-			<header>
-				<i class="fab fa-facebook-square fa-2x"></i>
-				<i class="fab fa-youtube-square fa-2x"></i>
-				<i class="fab fa-twitter-square fa-2x"></i>
-				<i class="fab fa-instagram fa-2x"></i>
-	          	<i class="fab fa-spotify fa-2x"></i>
-				<div class="my_dropdown float-right">
-					<button class="dropbtn">&#9776</button>
-					<div class="my_dropdown-content">
-						<a href="index.html">HOME</a>
-						<a href="video.html">VIDEO</a>
-						<a href="music.html">MUSIC</a>
-						<a href="photo.html">PHOTO</a>
-						<a href="tour.html">TOUR</a>
+			<header><!--Header element of the page-->
+				<div class="row">
+					<div class="col-12"><!--Top row, icons-->
+						<i class="fab fa-facebook-square fa-2x"></i><!--Social media icons-->
+						<i class="fab fa-youtube-square fa-2x"></i>
+						<i class="fab fa-twitter-square fa-2x"></i>
+						<i class="fab fa-instagram fa-2x"></i>
+			          	<i class="fab fa-spotify fa-2x"></i>
+						<div class="my_dropdown float-right"><!--Dropdown menu part-->
+							<button class="dropbtn">&#9776;</button><!--Dropdown button visible on smaller screens-->
+							<div class="my_dropdown-content"><!--Subpages-->
+								<a href="index.html">HOME</a>
+								<a href="video.html">VIDEO</a>
+								<a href="music.html">MUSIC</a>
+								<a href="photo.html">PHOTO</a>
+								<a href="tour.html">TOUR</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row justify-content-center">
-				<h2>KRAFTWERK</h2>
-				<nav>
-					<ul>
-            			<li><a href="index.html"><span>HOME</span></a></li>
-						<li><a href="video.html"><span>VIDEO</span></a></li>
-						<li><a href="music.html"><span>MUSIC</span></a></li>
-						<li class="current"><a href="photo.html"><span>PHOTO</span></a></li>
-						<li><a href="tour.html"><span>TOUR</span></a></li>
-					</ul>
-				</nav>
+				<div class="row"><!--Second row, band name and navbar-->
+					<div class="col-lg-6 col-md-12">
+						<h2>KRAFTWERK</h2><!--Band name, column expanding to full row on smaller screens-->
+					</div>
+					<div class="col-lg-6 d-none d-lg-block"><!--Navbar column hidden on small screens-->
+						<nav>
+							<ul><!--List of all subpages-->
+		            			<li><a href="index.html"><span>HOME</span></a></li>
+								<li><a href="video.html"><span>VIDEO</span></a></li>
+								<li><a href="music.html"><span>MUSIC</span></a></li>
+								<li class="current"><a href="photo.html"><span>PHOTO</span></a></li><!--Different styling of current page-->
+								<li><a href="tour.html"><span>TOUR</span></a></li>
+							</ul>
+						</nav>
+					</div>	
 				</div>
 			</header>
-			<main class="row justify-content-center">
+			<main class="row justify-content-center"><!--Main content of the page-->
 				<div id="carouselSlides" class="carousel slide" data-ride="carousel">
-				  <div class="carousel-inner">
-				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="images/band_2.jpg" alt="Band 2">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="images/band_3.jpg" alt="Band 3">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="images/band_4.jpg" alt="Band 4">
-				    </div>
-				  </div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							  <img class="w-100" src="images/band_2.jpg" alt="Band 2">
+						</div>
+						<div class="carousel-item">
+							  <img class="w-100" src="images/band_3.jpg" alt="Band 3">
+						</div>
+						<div class="carousel-item">
+							  <img class="w-100" src="images/band_4.jpg" alt="Band 4">
+						</div>
+						<div class="carousel-item">
+							  <img class="w-100" src="images/band_5.jpg" alt="Band 4">
+						</div>
+					</div>
 				</div>
 			</main>
+			<div class="row text-center">
+				<p>Pictures taken at The Keio Plaza Hotel & Shibuya Koukai Do, Tokyo 1981</p>
+			</div>
 			<footer class="row justify-content-center">Copyright &#169; 2018</footer>
 		</div>
-		<!-- Bootstrap JavaScript needed for carousel-->
-	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<!--Bootstrap JavaScript needed for carousel-->
+	    <!--jQuery first, then Popper.js, then Bootstrap JS-->
 	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
