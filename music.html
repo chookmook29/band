@@ -1,62 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!--Default language declaration-->
     <head>
-        <!-- Required Bootstrap meta tags -->
+        <!--Required Bootstrap meta tags-->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 		<!-- Bootstrap CSS -->
+ 		<!--Bootstrap CSS-->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	    <!-- Social media icon CSS -->
+	    <!--Social media icon CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-		<!-- CSS stylesheet -->
+		<!--CSS stylesheet-->
         <link rel = "stylesheet" type = "text/css" href = "style.css">
         <title>Kraftwerk</title>
     </head>
     <body>
 		<div class="container-fluid">
-			<header>
-				<i class="fab fa-facebook-square fa-2x"></i>
-				<i class="fab fa-youtube-square fa-2x"></i>
-				<i class="fab fa-twitter-square fa-2x"></i>
-				<i class="fab fa-instagram fa-2x"></i>
-	          	<i class="fab fa-spotify fa-2x"></i>
-				<div class="my_dropdown float-right">
-					<button class="dropbtn">&#9776</button>
-					<div class="my_dropdown-content">
-						<a href="index.html">HOME</a>
-						<a href="video.html">VIDEO</a>
-						<a href="music.html">MUSIC</a>
-						<a href="photo.html">PHOTO</a>
-						<a href="tour.html">TOUR</a>
+			<header><!--Header element of the page-->
+				<div class="row">
+					<div class="col-12"><!--Top row, icons-->
+						<i class="fab fa-facebook-square fa-2x"></i><!--Social media icons-->
+						<i class="fab fa-youtube-square fa-2x"></i>
+						<i class="fab fa-twitter-square fa-2x"></i>
+						<i class="fab fa-instagram fa-2x"></i>
+			          	<i class="fab fa-spotify fa-2x"></i>
+						<div class="my_dropdown float-right"><!--Dropdown menu part-->
+							<button class="dropbtn">&#9776;</button><!--Dropdown button visible on smaller screens-->
+							<div class="my_dropdown-content"><!--Subpages-->
+								<a href="index.html">HOME</a>
+								<a href="video.html">VIDEO</a>
+								<a href="music.html">MUSIC</a>
+								<a href="photo.html">PHOTO</a>
+								<a href="tour.html">TOUR</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row justify-content-center">
-				<h2>KRAFTWERK</h2>
-				<nav>
-					<ul>
-            			<li><a href="index.html"><span>HOME</span></a></li>
-						<li><a href="video.html"><span>VIDEO</span></a></li>
-						<li class="current"><a href="music.html"><span>MUSIC</span></a></li>
-						<li><a href="photo.html"><span>PHOTO</span></a></li>
-						<li><a href="tour.html"><span>TOUR</span></a></li>
-					</ul>
-				</nav>
+				<div class="row"><!--Second row, band name and navbar-->
+					<div class="col-lg-6 col-md-12">
+						<h2>KRAFTWERK</h2><!--Band name, column expanding to full row on smaller screens-->
+					</div>
+					<div class="col-lg-6 d-none d-lg-block"><!--Navbar column hidden on small screens-->
+						<nav>
+							<ul><!--List of all subpages-->
+		            			<li><a href="index.html"><span>HOME</span></a></li>
+								<li><a href="video.html"><span>VIDEO</span></a></li>
+								<li class="current"><a href="music.html"><span>MUSIC</span></a></li><!--Different styling of current page-->
+								<li><a href="photo.html"><span>PHOTO</span></a></li>
+								<li><a href="tour.html"><span>TOUR</span></a></li>
+							</ul>
+						</nav>
+					</div>	
 				</div>
 			</header>
-			<div class="justify-content-center text-center">
+			<main class="justify-content-center text-center"><!--Main content of the page-->
 				<img src="images/album.jpg" alt="Album cover" class="responsive-full">
 				<div>
-				<audio id="player" src="https://s3.eu-west-2.amazonaws.com/kraftwerkband/song.mp3" class="fadeOut"></audio>
-				</div>
+					<audio id="player" src="https://s3.eu-west-2.amazonaws.com/kraftwerkband/song.mp3" class="fadeOut"></audio>
 				</div>
 				<div class="fadeOut text-center">
-				  <button class="fadeOut" onclick="document.getElementById('player').play()">PLAY</button>
-				  <button class="fadeOut" onclick="document.getElementById('player').pause()">PAUSE</button>
-				  <button class="fadeOut" onclick="document.getElementById('player').volume += 0.1">VOL+ </button>
-				  <button class="fadeOut" onclick="document.getElementById('player').volume -= 0.1">VOL- </button>
+					<button class="fadeOut" onclick="document.getElementById('player').play()">PLAY</button>
+					<button class="fadeOut" onclick="document.getElementById('player').pause()">PAUSE</button>
+					<button class="fadeOut" onclick="document.getElementById('player').volume += 0.1">VOL+ </button>
+					<button class="fadeOut" onclick="document.getElementById('player').volume -= 0.1">VOL- </button>
 				</div>
-			
-		<footer class="row justify-content-center">Copyright &#169; 2018</footer>
+				<article><!--Information about the video-->
+						<p>"Trans-Europe Express" was released as the lead single from Kraftwerk's sixth studio album of the same name in 1977. The track has found influence both in hip-hop and by modern experimental bands such as the electroclash bands of the early 2000s.</p>
+					</article>
+			</main>
+			<footer class="row justify-content-center">Copyright &#169; 2018</footer><!--Footer element of the page-->
 		</div>
     </body>
 </html>
