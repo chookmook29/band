@@ -27,7 +27,11 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 64px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 96px;/*Band's name used in all sub-pages, no background image so can be larger*/
+		font-size: 96px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul {
 		display: none;/*Navigation bar hidden on small screens*/
@@ -38,18 +42,18 @@ src: url("fonts/Roboto-Light.ttf");
 	p {
 		max-width: 90%;/*Paragraph fills most of the screen width*/
 	}
-	.responsive {/*Used to define video playback size*/
+	.responsive {/*Used to define video size*/
 		width: 80%;/*Fills percentage of the screen, keeping correct screen aspect ratio*/
 		height: auto;/*Auto adjusted height, prevents errors*/
 	}
 	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 66%;
 	}
-	.header {
-		height: 105%;/*Stretches header element, so it covers whole viewport, used only in index.html*/
+	.header {/*Stretches header element, so it covers whole viewport, used only in index.html*/
+		height: 105%;
 	}
-	.band_name {
-		bottom: 0;/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
+		bottom: 0;
 	}
 	.dropbtn {/*Mobile screens navigation button*/
 		display: block;
@@ -69,49 +73,50 @@ src: url("fonts/Roboto-Light.ttf");
 	 *Adjusted font sizes and width of elements
 	 */
     h1 {
-		font-size: 64px;
+		font-size: 64px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 64px;
+		font-size: 64px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul {
-		display: none;
+		display: none;/*Navigation bar hidden on small screens*/
 	}
 	footer {
-		font-size: 8px;
-	}
-	i {
-		padding-bottom: 50px;
+		font-size: 8px;/*Adjusted footer size*/
 	}
 	p {
-		max-width: 90%;
+		max-width: 90%;/*Paragraph fills most of the screen width*/
 	}
-	.responsive {/*In Portrait orientation even on small screens, full video is displayed without scrollbar*/ 
+	.responsive {/*Used to define video size, in Portrait orientation even on small screens, full video is displayed without scrollbar*/ 
 		width: 100%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 66%;
 	}
 	.header {/**
 			  *Screen long & narrow, 
-			  *to display background image (which is wide) behind whole header container
+			  *to display background image (which is wide) behind header container
 			  *it must fill only half the viewport
 			  */
 		height: 50%;
 	}
-	.band_name {/*Element higher up the viewport to not overlap with paragraph, since .header is only 50% of the area*/
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*//*Element higher up the viewport to not overlap with paragraph, since .header is only 50% of the area*/
 		bottom: 55%;
 	}
 	/*More font resizing*/
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: block;
 		font-size: 40px;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 		font-size: 10px;
 	}
-	.table {
+	.table {/*Tweaks to responsive table preventing display issues*/
 		max-width: 90%;
 		font-size: 10px;
 	}
@@ -122,184 +127,196 @@ src: url("fonts/Roboto-Light.ttf");
 	 *Adjusted font sizes and width of elements
 	 */
     h1 {
-		font-size: 86px;
+		font-size: 86px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 80px;
+		font-size: 80px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul {
-		display: none;
+		display: none;/*Navigation bar hidden on small screens*/
 	}
 	footer {
-		font-size: 9px;
-	}
-	i {
-		padding-bottom: 50px;
+		font-size: 9px;/*Adjusted footer size*/
 	}
 	p {
-		max-width: 90%;
+		max-width: 90%;/*Paragraph fills most of the screen width*/
 	}
-	.responsive {
+	.responsive {/*Used to define video size*/
 		width: 80%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 66%;
 	}
-	.header {
+	.header {/*Stretches header element, so it covers whole viewport, used only in index.html*/
 		height: 105%;
 	}
-	.band_name {
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 		bottom: 0;
 	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: block;
 		font-size: 50px;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 		font-size: 12px;
 	}
 }
-@media screen and (min-width: 576px) and (orientation: portrait) {
+@media screen and (min-width: 576px) and (orientation: portrait) {/*Nexus 7*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
-		font-size: 104px;
+		font-size: 104px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 144px;
-	}
-	li  {
-		width: 134px;
-		height: 32px;
-		line-height: 32px;
-		font-size: 24px;
-		font-family: "Roboto Thin", Arial, sans-serif;
+		font-size: 144px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul {
-		display: none;
+		display: none;/*Navigation bar hidden on small screens*/
 	}
 	footer {
-		font-size: 9px;
-	}
-	i {
-		padding-bottom: 50px;
+		font-size: 9px;/*Adjusted footer size*/
 	}
 	p {
-		max-width: 80%;
+		max-width: 80%;/*Paragraph fills most of the screen width*/
 	}
-	.responsive {
+	.responsive {/*Used to define video size*/
 		width: 100%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 66%;
 	}
-	.header {
+	.header {/*Stretches header element, so it covers whole viewport, used only in index.html*/
 		height: 70%;
 	}
-	.band_name {
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 		bottom: 30%;
 	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: block;
 		font-size: 50px;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 		font-size: 13px;
-		margin-bottom: 10px;/*Prevents from paragraph getting too close to form*/
+		margin-bottom: 10px;/*Prevents from paragraph getting too close to email form*/
 	}
 }
 @media screen and (min-width: 768px) and (orientation: landscape) {/*Used with iPhone X*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
-		font-size: 80px;
+		font-size: 80px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 120px;
+		font-size: 120px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul {
-		display: none;
+		display: none;/*Navigation bar hidden on small screens*/
 	}
 	p {
-		max-width: 60%;
+		max-width: 60%;/*Paragraph fills more than half of the screen width*/
 	}
 	footer {
-		font-size: 10px;
+		font-size: 10px;/*Adjusted footer size*/
 	}
-	i {
-		padding-bottom: 50px;
-	}
-	.responsive {
+	.responsive {/*Used to define video size*/
 		width: 100%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 66%;
 	}
-	.header {
+	.header {/*Stretches header element, so it covers whole viewport, used only in index.html*/
 		height: 105%;
 	}
-	.band_name {
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 		bottom: 0;
 	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: block;
 		font-size: 60px;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 	font-size: 14px;
 	}
 }
-@media screen and (min-width: 768px) and (orientation: portrait) {
+@media screen and (min-width: 768px) and (orientation: portrait) {/*iPad, iPad Mini, Kindle Fire in portrait mode*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
-		font-size: 160px;
+		font-size: 160px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 144px;
+		font-size: 144px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul {
-		display: none;
+		display: none;/*Navigation bar hidden on small screens*/
 	}
 	p {
-		max-width: 70%;
+		max-width: 70%;/*Paragraph fills more than half of the screen width*/
 	}
 	footer {
-		font-size: 10px;
+		font-size: 10px;/*Adjusted footer size*/
 	}
-	i {
-		padding-bottom: 50px;
-	}
-	.responsive {
+	.responsive {/*Used to define video size*/
 		width: 100%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 66%;
 	}
-	.header {
+	.header {/*Stretches header element, so it covers certain part viewport, used only in index.html*/
 		height: 80%;
 	}
-	.band_name {
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 		bottom: 20%;
 	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: block;
 		font-size: 60px;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 	font-size: 14px;
 	}
 }
-@media screen and (min-width: 992px) and (orientation: landscape) {
+@media screen and (min-width: 992px) and (orientation: landscape) {/*Tablets in landscape mode*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
-		font-size: 176px;
-		display: inline;
+		font-size: 176px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 120px;
+		font-size: 120px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul { 
-		display: flex;
+		display: flex;/*Navigation bar hidden on small screens*/
 	}
-	li {
+	li {/*List elements styling*/
 		margin-right: 25px;
 		height: 34px;
 		width: 99px;
@@ -307,117 +324,128 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 26px;
 	}
 	p {
-		max-width: 55%;
+		max-width: 55%;/*Paragraph fills more than half of the screen width*/
 	}
 	footer {
-		font-size: 9px;
+		font-size: 9px;/*Adjusted footer size*/
 	}
-	.responsive {
+	.responsive {/*Used to define video size*/
 		max-width: 42%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 42%;
 	}
-	.header {
+	.header {/*Stretches header element, so it covers certain part viewport, used only in index.html*/
 		height: 105%;
 	}
-	.band_name {
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 		bottom: 0;
 	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: none;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 	font-size: 14px;
 	}
 }
-@media screen and (min-width: 992px) and (orientation: portrait) {
+@media screen and (min-width: 992px) and (orientation: portrait) {/*iPad Pro*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
-		font-size: 176px;
+		font-size: 176px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 128px;
+		font-size: 128px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul { 
-		display: flex;
+		display: flex;/*Navigation bar hidden on small screens*/
 	}
-	li {
+	li {/*List elements styling*/
 		margin-right: 25px;
 		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 26px;
 	}
 	p {
-		max-width: 55%;
+		max-width: 55%;/*Paragraph fills more than half of the screen width*/
 	}
 	footer {
-		font-size: 9px;
+		font-size: 9px;/*Adjusted footer size*/
 	}
-	.responsive {
+	.responsive {/*Used to define video size*/
 		max-width: 42%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 42%;
 	}
-	.header {
+	.header {/*Stretches header element, so it covers certain viewport, used only in index.html*/
 		height: 80%;
 	}
-	.band_name {
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 		bottom: 25%;
 	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: none;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 	font-size: 14px;
 	}
 }
-@media screen and (min-width: 1200px) {/*Wide screens: laptop, desktop PC*/
+@media screen and (min-width: 1200px) {/*Wide screens: laptop, desktop PC, iPad Pro landscape mode*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
-		font-size: 224px;
+		font-size: 224px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 140px;
+		font-size: 140px;/**
+						 *Band's name used in all sub-pages, no background image so can be larger
+						 *In some modes smaller to prevent from pushing other elements off the screen
+						 *Depends on the size of navigation button & if navigation bar visible
+	 					 */
 	}
 	ul { 
-		display: flex;
+		display: flex;/*Navigation bar hidden on small screens*/
 	}
-	li {
+	li {/*List elements styling*/
 		margin-right: 40px;
 		line-height: 38px;
 		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 29px;
 	}
 	p {
-		max-width: 42%;
+		max-width: 42%;/*Paragraph fills less than half of the screen width*/
 	}
 	footer {
-		font-size: 14px;
+		font-size: 14px;/*Adjusted footer size*/
 	}
-	.responsive {
+	.responsive {/*Used to define video size*/
 		max-width: 42%;
 		height: auto;
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 33%;
 	}
-	.header {
+	.header {/*Stretches header element, so it covers whole viewport, used only in index.html*/
 		height: 105%;
 	}
-	.band_name {
+	.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 		bottom: 0;
 	}
-	.fade-in img {
-		margin-left: 25%;
-	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: none;
 	}
-	.form_control {
+	.form_control {/*Defines size of email form*/
 		font-size: 16px;
 	}
-	.table {
+	.table {/*Tweaks to responsive table preventing display issues*/
 		max-width: 70%;
 		font-size: 14px;
 		font-family: "Roboto Light", Arial, sans-serif;
@@ -433,7 +461,7 @@ src: url("fonts/Roboto-Light.ttf");
 		100% {opacity: 0.8;}
 }
 
-@keyframes fadeOut {
+@keyframes fadeOut {/*Keyframes for fade out animation*/
         0% {opacity: 0;}
         100% {opacity: 0.8;}
 }
@@ -443,22 +471,22 @@ html, body {
 
 	background-color: #000000;
 }
-h1 {
+h1 {/*Header basic styling*/
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
 	color: #FFFFFF;
 }
-h2 {
+h2 {/*Header basic styling*/
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
 	color: #FFFFFF;
 }
-li {
+li {/*List elements styling*/
 	list-style-type: none;
 	text-align: center;
 	margin-top: 2%;
 }
-li span:hover {
+li span:hover {/*List elements styling when mouse over it*/
 	text-decoration: none;
 	color: #FFFFFF;
 	background: #AF1400;
@@ -468,15 +496,14 @@ li span:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AF1400', endColorstr='#D02A04',GradientType=1 );
 	opacity: 0.7;
 }
-a {
+a {/*Used on navigation bar to prevent displaying blue coloured anchors*/
 	color: #FFFFFF;
 }
-a:hover {
-	color: #FFFFFF;
+a:hover {/*Used on navigation bar to prevent displaying blue underline*/
 	text-decoration: none;
 }
 p {	
-	font-size: 13px;
+	font-size: 13px;/*Same font size in every screen mode*/
 	margin: auto;
 	color: #969696;
 	margin-top: 8px;
@@ -485,26 +512,27 @@ p {
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
-	text-align: justify;/*Same reason as hyphenation*/
+	text-align: justify;/*Same reason why hyphenation was used*/
 }
 i {
 	padding-top: 11px;/*Prevents from being on top edge of viewport*/
 	color: #FFFFFF;
 	opacity: 1;/*Used to distinguish from i:hover*/
 }
-i:hover {
+i:hover {/*Used to distinguish from i*/
 	opacity: 0.8;
 }
-footer {
+footer {/*Footer styling*/
 	color: #D3D3D3;
 	text-align: center;
 }
-video {
+video {/*Fade in animation styling*/
 	-webkit-animation-duration: 2s;
 			animation-duration: 2s;
     -webkit-animation-fill-mode: both;
 			animation-fill-mode: both;
 }
+/*Button styling*/
 button {
 	background-color: #AF1400;
 	border: 3px solid #AF1400;
@@ -523,55 +551,28 @@ button:focus {
 button:hover {
 	cursor: pointer;/*Cursor change to make it more clear*/ 
 }
-.current {
+.current {/*Navigation bar's currently visisted page indicator*/ 
 	color: #AF1400;
 	opacity: 0.5;
 }
-.header {
-	background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");
-	background-repeat: no-repeat;
+.header {/*Stretches header element, so it covers whole viewport, used only in index.html*/
+	background-image: url("https://s3.eu-west-2.amazonaws.com/kraftwerkband/band.jpg");/*Amazon Web Services for large files*/
+	background-repeat: no-repeat;/*Makes background image display only once*/
   	background-size: 100%;
 	width: 100%;
 }
-.band_name {
+.band_name {/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 	position: absolute;
 	max-width: 100%;
 	width: 100%;
 }
-.form_control {
+.form_control {/*Defines size of email form*/
 	text-align: center;
 	color: #FFFFFF;
 	width: 100%;
 	font-family: "Roboto Light", Arial, sans-serif;
 }
-.text-focus-in {
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-.fade-in img {
-    -webkit-animation-name: fade;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 6s;
-    animation-name: fade;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
-	position:absolute;
-}
-
-@-webkit-keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
-@keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
+/*Dropdown menu list styling*/
 .my_dropdown {
     position: relative;
     display: inline-block;
@@ -587,7 +588,6 @@ button:hover {
     min-width: 160px;
     z-index: 1;
 }
-
 .my_dropdown-content a {
     color: #FFFFFF;
     padding: 12px 16px;
@@ -601,21 +601,22 @@ button:hover {
 .my_dropdown:hover .my_dropdown-content {
     display: block;
 }
-.table {
+/*End of dropdown styling*/
+.table {/*Tweaks to responsive table preventing display issues*/
 	margin: 0 auto;/*Center table in tour.html*/
 }
-.dropbtn {
+.dropbtn {/*Mobile screens navigation(bars symbol) styling*/
 	background-color: Transparent;
 	color: #FFFFFF;
 	border: none;
 }
-.dropbtn:focus {
+.dropbtn:focus {/*Navigation's styling after activation*/
 	background-color: Transparent;
 	color: #FFFFFF;
 	opacity: 0.8;
 	border: none;
 }
-.dropbtn:hover {
+.dropbtn:hover {/*Navigation's styling on hover*/
 	background-color: Transparent;
 	color: #FFFFFF;
 	opacity: 0.8;
