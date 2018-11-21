@@ -51,23 +51,23 @@
 					</div>	
 				</div>
 			</header>
-			<main class="justify-content-center text-center"><!--Main content of the page-->
+			<main class="text-center"><!--Main content of the page-->
 				<img src="images/album.jpg" alt="Album cover" class="responsive-full">
 				<div>
-					<audio id="player" src="https://s3.eu-west-2.amazonaws.com/kraftwerkband/song.mp3" class="fadeOut"></audio>
+					<audio id="player" src="https://s3.eu-west-2.amazonaws.com/kraftwerkband/song.mp3" class="fadeOut"></audio><!--Due to file size, stored in AWS cloud-->
 				</div>
 				<div class="fadeOut text-center">
-					<button class="fadeOut" onclick="document.getElementById('player').play()">PLAY</button>
+					<button class="fadeOut" onclick="document.getElementById('player').play()">PLAY</button><!--Custom controls in JavaScript-->
 					<button class="fadeOut" onclick="document.getElementById('player').pause()">PAUSE</button>
 					<button class="fadeOut" onclick="document.getElementById('player').volume += 0.1">VOL+ </button>
 					<button class="fadeOut" onclick="document.getElementById('player').volume -= 0.1">VOL- </button>
 				</div>
-				<article><!--Information about the video-->
+				<article><!--Information about the track-->
 						<p>"Trans-Europe Express" was released as the lead single from Kraftwerk's sixth studio album of the same name in 1977. The track has found influence both in hip-hop and by modern experimental bands such as the electroclash bands of the early 2000s.</p>
 					</article>
 			</main>
 			<div class="row justify-content-center">
-				<footer>Copyright &#169; 2018</footer>
+				<footer>Copyright &#169; 2018</footer><!--Footer element of the page-->
 			</div>
 		</div>
     </body>
