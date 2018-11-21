@@ -1,92 +1,78 @@
-@font-face {
+@font-face {/*Font used for <h1> and <h2>: band's name*/
 font-family: "ManMachine";
 src: url("fonts/ManMachine.ttf");
 }
-@font-face {
+@font-face {/*Main navigation bar font, also buttons at high resolution*/
 font-family: "Roboto Thin";
 src: url("fonts/Roboto-Thin.ttf");
 }
-@font-face {
+@font-face {/*Font used for table in tour.html at certain resolutions only*/
 font-family: "Roboto Bold";
 src: url("fonts/Roboto-Bold.ttf");
 }
 @font-face {
-font-family: "Roboto Regular";
+font-family: "Roboto Regular";/*Default font*/
 src: url("fonts/Roboto-Regular.ttf");
 }
 @font-face {
-font-family: "Roboto Light";
+font-family: "Roboto Light";/*Used in dropdown, table and and email form*/
 src: url("fonts/Roboto-Light.ttf");
 }
 @media screen and (max-width: 575px) and (orientation: landscape){
+	/**
+	 *No mobile devices use such low resolution in landscape mode.
+	 *Used in responsive resizing.
+	 */
 	h1 {
-		text-align: center;
-		font-size: 64px;
+		font-size: 64px;/*Band's name, index.html only*/
 	}
 	h2 {
-		font-size: 96px;
-		text-align: center;
-	}
-	li {
-		width: 160px;
-		height: 32px;
-		line-height: 32px;
-		font-size: 19px;
-		font-family: "Roboto Thin", Arial, sans-serif;
+		font-size: 96px;/*Band's name used in all sub-pages, no background image so can be larger*/
 	}
 	ul {
-		display: none;
+		display: none;/*Navigation bar hidden on small screens*/
 	}
 	footer {
-		font-size: 8px;
-	}
-	i {
-		padding-bottom: 50px;
+		font-size: 8px;/*Adjusted footer size*/
 	}
 	p {
-		max-width: 90%;
+		max-width: 90%;/*Paragraph fills most of the screen width*/
 	}
-	.responsive {
-		width: 100%;
-		height: auto;
+	.responsive {/*Used to define video playback size*/
+		width: 80%;/*Fills percentage of the screen, keeping correct screen aspect ratio*/
+		height: auto;/*Auto adjusted height, prevents errors*/
 	}
-	.responsive-full {
+	.responsive-full {/*Used for album cover in music.html*/
 		max-width: 66%;
 	}
 	.header {
-		height: 105%;
+		height: 105%;/*Stretches header element, so it covers whole viewport, used only in index.html*/
 	}
 	.band_name {
-		bottom: 0;
+		bottom: 0;/*Attaches row of band's name and email form to bottom of viewport, used only in index.html*/
 	}
-	.dropbtn {
+	.dropbtn {/*Mobile screens navigation button*/
 		display: block;
 		font-size: 30px;
 	}
-	.form_control {
-		font-size: 16px;
-	} 
-	.table {
+	.form_control {/*Defines size of email form*/
+		font-size: 11px;
+	}
+	.table {/*Tweaks to responsive table preventing display issues*/
 		max-width: 90%;
 		font-size: 10px;
-		font-family: 'Roboto Bold', Arial, sans-serif;
 	}
 }
 @media screen and (max-width: 575px) and (orientation: portrait) {
+	/*Small screens like Galaxy S3, iPhone 4, Nexus 5*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
-		text-align: center;
 		font-size: 64px;
 	}
 	h2 {
 		font-size: 64px;
-		text-align: center;
-	}
-	li {
-		width: 160px;
-		height: 32px;
-		line-height: 32px;
-		font-size: 19px;
-		font-family: "Roboto Thin", Arial, sans-serif;
 	}
 	ul {
 		display: none;
@@ -100,19 +86,24 @@ src: url("fonts/Roboto-Light.ttf");
 	p {
 		max-width: 90%;
 	}
-	.responsive {
+	.responsive {/*In Portrait orientation even on small screens, full video is displayed without scrollbar*/ 
 		width: 100%;
 		height: auto;
 	}
 	.responsive-full {
 		max-width: 66%;
 	}
-	.header {
+	.header {/**
+			  *Screen long & narrow, 
+			  *to display background image (which is wide) behind whole header container
+			  *it must fill only half the viewport
+			  */
 		height: 50%;
 	}
-	.band_name {
+	.band_name {/*Element higher up the viewport to not overlap with paragraph, since .header is only 50% of the area*/
 		bottom: 55%;
 	}
+	/*More font resizing*/
 	.dropbtn {
 		display: block;
 		font-size: 40px;
@@ -121,26 +112,20 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 10px;
 	}
 	.table {
-		max-width: 100%;
+		max-width: 90%;
 		font-size: 10px;
-		font-family: 'Roboto Bold', Arial, sans-serif;
 	}
 }
 @media screen and (min-width: 576px) and (orientation: landscape) {
+	/*Landscape orientation of Galaxy S5, BlackBerry Z30, Galaxy Note 3*/
+	/**
+	 *Adjusted font sizes and width of elements
+	 */
     h1 {
 		font-size: 86px;
-		text-align: center;
 	}
 	h2 {
 		font-size: 80px;
-		text-align: center;
-	}
-	li  {
-		width: 134px;
-		height: 32px;
-		line-height: 32px;
-		font-size: 24px;
-		font-family: "Roboto Thin", Arial, sans-serif;
 	}
 	ul {
 		display: none;
@@ -155,7 +140,7 @@ src: url("fonts/Roboto-Light.ttf");
 		max-width: 90%;
 	}
 	.responsive {
-		width: 100%;
+		width: 80%;
 		height: auto;
 	}
 	.responsive-full {
@@ -178,11 +163,9 @@ src: url("fonts/Roboto-Light.ttf");
 @media screen and (min-width: 576px) and (orientation: portrait) {
     h1 {
 		font-size: 104px;
-		text-align: center;
 	}
 	h2 {
 		font-size: 144px;
-		text-align: center;
 	}
 	li  {
 		width: 134px;
@@ -221,10 +204,11 @@ src: url("fonts/Roboto-Light.ttf");
 		font-size: 50px;
 	}
 	.form_control {
-		font-size: 14px;
+		font-size: 13px;
+		margin-bottom: 10px;/*Prevents from paragraph getting too close to form*/
 	}
 }
-@media screen and (min-width: 768px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (orientation: landscape) {/*Used with iPhone X*/
     h1 {
 		font-size: 80px;
 	}
@@ -233,14 +217,6 @@ src: url("fonts/Roboto-Light.ttf");
 	}
 	ul {
 		display: none;
-	}
-	li {
-		margin-right: 25px;
-		font-family: "Roboto Thin", Arial, sans-serif;
-		width: 83px;
-		height: 32px;
-		line-height: 32px;
-		font-size: 16px;
 	}
 	p {
 		max-width: 60%;
@@ -281,14 +257,6 @@ src: url("fonts/Roboto-Light.ttf");
 	}
 	ul {
 		display: none;
-	}
-	li {
-		margin-right: 25px;
-		font-family: "Roboto Thin", Arial, sans-serif;
-		width: 83px;
-		height: 32px;
-		line-height: 32px;
-		font-size: 16px;
 	}
 	p {
 		max-width: 70%;
@@ -376,8 +344,6 @@ src: url("fonts/Roboto-Light.ttf");
 	}
 	li {
 		margin-right: 25px;
-		height: 34px;
-		width: 99px;
 		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 26px;
 	}
@@ -407,7 +373,7 @@ src: url("fonts/Roboto-Light.ttf");
 	font-size: 14px;
 	}
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {/*Wide screens: laptop, desktop PC*/
     h1 {
 		font-size: 224px;
 	}
@@ -420,8 +386,6 @@ src: url("fonts/Roboto-Light.ttf");
 	li {
 		margin-right: 40px;
 		line-height: 38px;
-		width: 107px;
-		height: 38px;
 		font-family: "Roboto Thin", Arial, sans-serif;
 		font-size: 29px;
 	}
@@ -459,7 +423,12 @@ src: url("fonts/Roboto-Light.ttf");
 		font-family: "Roboto Light", Arial, sans-serif;
 	}
 }
-@-webkit-keyframes fadeOut {
+.fadeOut {/*Fade out animation used on buttons and video player*/
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+        text-align: center;
+        }
+@-webkit-keyframes fadeOut {/*Keyframes for fade out animation*/
 		0% {opacity: 0;}
 		100% {opacity: 0.8;}
 }
@@ -468,24 +437,12 @@ src: url("fonts/Roboto-Light.ttf");
         0% {opacity: 0;}
         100% {opacity: 0.8;}
 }
-
-.fadeOut {
-        -webkit-animation-name: fadeOut;
-        animation-name: fadeOut;
-        text-align: center;
-        }
-
-
 html, body {
-	font-family: 'Roboto Regular', Arial, sans-serif;
-	height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	font-family: 'Roboto Regular', Arial, sans-serif;/*Default custom font*/
+	height: 100%;/*Used to prevent elements overlapping*/
+
 	background-color: #000000;
 }
-
 h1 {
 	font-family: 'ManMachine', Arial, sans-serif;
 	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
@@ -511,9 +468,6 @@ li span:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AF1400', endColorstr='#D02A04',GradientType=1 );
 	opacity: 0.7;
 }
-ul {
-	padding-left: 0;
-}
 a {
 	color: #FFFFFF;
 }
@@ -527,22 +481,22 @@ p {
 	color: #969696;
 	margin-top: 8px;
 	margin-bottom: 8px;
-	-webkit-hyphens: auto;
+	-webkit-hyphens: auto;/*Hyphenation used to make paragraph look solid and blocky*/
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
-	text-align: justify;
+	text-align: justify;/*Same reason as hyphenation*/
 }
 i {
-	padding-top: 11px;
+	padding-top: 11px;/*Prevents from being on top edge of viewport*/
 	color: #FFFFFF;
-	opacity: 1;
+	opacity: 1;/*Used to distinguish from i:hover*/
 }
 i:hover {
 	opacity: 0.8;
 }
 footer {
-	color: gray;
+	color: #D3D3D3;
 	text-align: center;
 }
 video {
@@ -567,7 +521,7 @@ button:focus {
 	border: 3px solid #FFFFFF;
 }
 button:hover {
-	cursor: pointer;
+	cursor: pointer;/*Cursor change to make it more clear*/ 
 }
 .current {
 	color: #AF1400;
@@ -618,10 +572,6 @@ button:hover {
     53% {opacity: 0;}
     100% {opacity: 0;}
 }
-img {
-    border: 2px solid #000000;
-    padding: 1px;
-}
 .my_dropdown {
     position: relative;
     display: inline-block;
@@ -652,7 +602,7 @@ img {
     display: block;
 }
 .table {
-	margin: 0 auto;
+	margin: 0 auto;/*Center table in tour.html*/
 }
 .dropbtn {
 	background-color: Transparent;
