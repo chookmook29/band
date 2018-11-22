@@ -1,8 +1,8 @@
 # Kraftwerk website
-- For fans and other people interested in music, who want to find useful information & content about creators of modern electronic sound
+- For fans and other people interested in music, who want to find useful information & content about fathers of modern electronic sound
  
 ## UX
-- I had to take minimalistic approach when building this project because members of Kraftwerk almost always refuse to grant interviews, publicise their work, or to have photographs taken. except when they have new product to promote. Throughout their career they have refused big-name collaborations with the likes of David Bowie and Micheal Jackson. They haven't released a "best of" record and they're not celebrities or rock stars. They refuse to appear on chat shows or entertainment programmes. So I had only handful of materials I could use.
+- I had to take minimalistic approach when building this project taking into account band's character. Members of Kraftwerk almost always refuse to grant interviews, publicise their work, or to have photographs taken. except when they have new product to promote. Throughout their career they have refused big-name collaborations with the likes of David Bowie and Micheal Jackson. They haven't released a "best of" record and they're not celebrities or rock stars. They refuse to appear on chat shows or entertainment programmes. So I had only handful of materials I could use.
 - Primary target audiences are fans and potential fans
 - User Stories I used as guidelines
   - As a fan, I want to see clips from back catalog or any new material as it becomes available
@@ -11,6 +11,7 @@
   - As a fan, I want to have an access to any new material as it becomes available
   - As a band, we want to showcase our music
   - As a band, we want to publicise our tour dates
+- Website has changed substantially since early mockups were made in Balsamiq
 
 ## Features
  
@@ -30,10 +31,11 @@
     - Used for testing and syntax errors
 - [Bootstrap 4](https://getbootstrap.com/)
     - To make project responsive, mobile-first
+    - Following classes were used: .col(and its variations), .row, .table, .d-flex, .text-center, .justify-content-center, .container-fluid, .flex-column, .d-none, .d-lg-block
 - [Balsamiq](https://balsamiq.com/)
     - Early mockups were created using **Balsamiq**
 - [JQuery](https://jquery.com)
-    - Used by some Bootstrap classes
+    - Used by Bootstrap classes
 - HTML, CSS and Javascript
     - Base languages used to create website
 
@@ -41,14 +43,13 @@
 ## Testing
 - Different screen sizes were tested using Chrome DevTools
 - On mobile screens certain big elements are hidden 
-- All code used on the site has been tested to ensure everything is working as expected
 - Site viewed and tested in the following browsers:
   - Google Chrome
   - Opera
   - Microsoft Edge
   - Mozilla Firefox
-- Project best looks on Chrome 
--  On certain resolutions screen was flickering from CSS animations.
+- On certain resolutions screen was flickering from CSS animations(change to element size), so they had to be removed
+- Known bug: video file format doesn't seem to be supported in Mozilla Firefox
 
 ## Deployment
 - There is no backend dependency, callbacks to server side dictionaries, databases

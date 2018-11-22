@@ -62,7 +62,7 @@ src: url("fonts/Roboto-Light.ttf");
 	.form_control {/*Defines size of email form*/
 		font-size: 11px;
 	}
-	.table {/*Tweaks to responsive table preventing display issues*/
+	.table {/*Bootstrap 4 class!! Tweaks to responsive table preventing display issues*/
 		max-width: 90%;
 		font-size: 10px;
 	}
@@ -116,7 +116,7 @@ src: url("fonts/Roboto-Light.ttf");
 	.form_control {/*Defines size of email form*/
 		font-size: 10px;
 	}
-	.table {/*Tweaks to responsive table preventing display issues*/
+	.table {/*Bootstrap 4 class!! Tweaks to responsive table preventing display issues*/
 		max-width: 90%;
 		font-size: 10px;
 	}
@@ -314,7 +314,7 @@ src: url("fonts/Roboto-Light.ttf");
 	 					 */
 	}
 	ul { 
-		display: flex;/*Navigation bar hidden on small screens*/
+		display: flex;/*Navigation bar visible on bigger screens*/
 	}
 	li {/*List elements styling*/
 		margin-right: 25px;
@@ -364,7 +364,7 @@ src: url("fonts/Roboto-Light.ttf");
 	 					 */
 	}
 	ul { 
-		display: flex;/*Navigation bar hidden on small screens*/
+		display: flex;/*Navigation bar visible on bigger screens*/
 	}
 	li {/*List elements styling*/
 		margin-right: 25px;
@@ -412,7 +412,7 @@ src: url("fonts/Roboto-Light.ttf");
 	 					 */
 	}
 	ul { 
-		display: flex;/*Navigation bar hidden on small screens*/
+		display: flex;/*Navigation bar visible on bigger screens*/
 	}
 	li {/*List elements styling*/
 		margin-right: 40px;
@@ -445,7 +445,7 @@ src: url("fonts/Roboto-Light.ttf");
 	.form_control {/*Defines size of email form*/
 		font-size: 16px;
 	}
-	.table {/*Tweaks to responsive table preventing display issues*/
+	.table {/*Bootstrap 4 class!! Tweaks to responsive table preventing display issues*/
 		max-width: 70%;
 		font-size: 14px;
 		font-family: "Roboto Light", Arial, sans-serif;
@@ -602,7 +602,7 @@ button:hover {
     display: block;
 }
 /*End of dropdown styling*/
-.table {/*Tweaks to responsive table preventing display issues*/
+.table {/*Bootstrap 4 class!! Tweaks to responsive table preventing display issues*/
 	margin: 0 auto;/*Center table in tour.html*/
 }
 .dropbtn {/*Mobile screens navigation(bars symbol) styling*/
