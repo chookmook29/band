@@ -1,22 +1,22 @@
 @font-face {/*Font used for <h1> and <h2>: band's name*/
-font-family: "ManMachine";
-src: url("fonts/ManMachine.ttf");
+font-family: "manmachine";
+src: url("fonts/manmachine.ttf");
 }
 @font-face {/*Main navigation bar font, also buttons at high resolution*/
-font-family: "Roboto Thin";
-src: url("fonts/Roboto-Thin.ttf");
+font-family: "roboto thin";
+src: url("fonts/roboto-thin.ttf");
 }
 @font-face {/*Font used for table in tour.html at certain resolutions only*/
-font-family: "Roboto Bold";
-src: url("fonts/Roboto-Bold.ttf");
+font-family: "roboto bold";
+src: url("fonts/roboto-bold.ttf");
 }
 @font-face {
-font-family: "Roboto Regular";/*Default font*/
-src: url("fonts/Roboto-Regular.ttf");
+font-family: "roboto regular";/*Default font*/
+src: url("fonts/roboto-regular.ttf");
 }
 @font-face {
-font-family: "Roboto Light";/*Used in dropdown, table and and email form*/
-src: url("fonts/Roboto-Light.ttf");
+font-family: "roboto light";/*Used in dropdown, table and and email form*/
+src: url("fonts/roboto-light.ttf");
 }
 @media screen and (max-width: 575px) and (orientation: landscape){
 	/**
