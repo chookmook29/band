@@ -478,7 +478,6 @@ h1 {/*Header basic styling*/
 }
 h2 {/*Header basic styling*/
 	font-family: 'ManMachine', Arial, sans-serif;
-	text-shadow: 1px 0px 9px rgba(130, 130, 130, 1);
 	color: #FFFFFF;
 }
 li {/*List elements styling*/
