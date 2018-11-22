@@ -6,7 +6,7 @@
 - Primary target audiences are fans and potential fans
 - User Stories I used as guidelines
   - As a fan, I want to see clips from back catalog or any new material as it becomes available
-  - As a fan, I want to listen to songs from Kraftwerk's back catalog
+  - As a fan, I want to listen to songs from Kraftwerk's back catalogue
   - As a fan, I want to get latest news about the band
   - As a fan, I want to have an access to any new material as it becomes available
   - As a band, we want to showcase our music
@@ -50,6 +50,18 @@
   - Mozilla Firefox
 - On certain resolutions screen was flickering from CSS animations(change to element size), so they had to be removed
 - Known bug: video file format doesn't seem to be supported in Mozilla Firefox
+- Scenarios have been tested manually
+    1. Clips from back catalogue or any new material:
+        1. Go to the "VIDEO" page
+    1. Listen to songs from Kraftwerk's back catalogue:
+        1. Go to the "MUSIC" page
+    1. Check tour dates:
+        1. Go to the "TOUR" page
+    1. Check gallery:
+        1. Go to the "PHOTO" page
+    1. Access to any new material as it becomes available, latest news about the band:
+        1. Fill the newsletter form
+- All user stories work as intended, except newsletter, which hasn't been fully tested because it's outside the scope of the project
 
 ## Deployment
 - There is no backend dependency, callbacks to server side dictionaries, databases
